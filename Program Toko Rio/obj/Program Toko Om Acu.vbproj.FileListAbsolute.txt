@@ -1,0 +1,434 @@
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\ResolveAssemblyReference.cache
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapLR.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPB.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPembayaranPiutang.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPembayaranUtang.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPenjualan.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapreturBeli.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapReturJualNew.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapSO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSalesPaymentByDate.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportFaktur.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPB.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPBFising.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPOFising.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturBeli.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturBeliFising.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturJual.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSJ.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBahanMentahHistory.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentahSubKategori.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBarangHistory.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBarang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsPaku.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseHitungKeluar.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseKlemPantek.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePantekKeluar.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseKaryawan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBahanMentahPaku.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBahanMentah.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePB.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSupplier.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsFormulaPantek.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBackUpDB.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBarang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSales.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseToko.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseFaktur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseStatusRetur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBarangAdjustment.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormKomisiSales.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsKaryawan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentah.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsProfile.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CRA.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CRLaporan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.CRPrintTransaksi.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapLabaRugi.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPembayaranPiutang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPembayaranUtang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPenerimaan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPenjualan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapReturBeli.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapReturJual.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapSO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungDiterimaManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungDiterima.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitung.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPenggajianManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPenggajian.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekDiterima.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekDiterimaManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPurchasePayment.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPurchasePaymentManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPenerimaanBahanMentah.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPenerimaanBahanMentahM.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrReturPembelian.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrReturPembelianM.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseTanggalSuratJalan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantek.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPaymentByDateManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormRetur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormReturManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormFakturManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLogin.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentahTipe.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsKategori.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsMerk.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsSales.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsProvinsi.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMain.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsSupplier.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsToko.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsUser.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormFaktur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPayment.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPaymentManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSOManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPOManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.Resources.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSOPendingManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program_Toko_Acu.sales_order.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program Toko Om Acu.vbproj.GenerateResource.Cache
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program Toko Acu.exe
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program Toko Acu.xml
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Rio\obj\Release\Program Toko Acu.pdb
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Acu.exe
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Acu.pdb
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-12Desc\Program Toko Acu.xml
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program Toko Acu.exe
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program Toko Acu.xml
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program Toko Acu.pdb
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\ResolveAssemblyReference.cache
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapLR.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPB.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPembayaranPiutang.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPembayaranUtang.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPenjualan.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapreturBeli.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapReturJualNew.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapSO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSalesPaymentByDate.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportFaktur.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPB.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPBFising.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPOFising.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturBeli.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturBeliFising.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturJual.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSJ.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBahanMentahHistory.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentahSubKategori.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBarangHistory.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBarang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsPaku.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseHitungKeluar.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseKlemPantek.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePantekKeluar.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseKaryawan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBahanMentahPaku.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBahanMentah.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePB.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSupplier.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsFormulaPantek.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBackUpDB.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBarang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSales.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseToko.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseFaktur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseStatusRetur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBarangAdjustment.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormKomisiSales.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsKaryawan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentah.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsProfile.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CRA.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CRLaporan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CRPrintTransaksi.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapLabaRugi.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPembayaranPiutang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPembayaranUtang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPenerimaan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPenjualan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapReturBeli.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapReturJual.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapSO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungDiterimaManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungDiterima.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitung.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPenggajianManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPenggajian.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekDiterima.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekDiterimaManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPurchasePayment.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPurchasePaymentManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPenerimaanBahanMentah.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPenerimaanBahanMentahM.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrReturPembelian.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrReturPembelianM.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseTanggalSuratJalan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantek.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPaymentByDateManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormRetur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormReturManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormFakturManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLogin.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentahTipe.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsKategori.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsMerk.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsSales.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsProvinsi.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMain.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsSupplier.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsToko.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsUser.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormFaktur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPayment.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPaymentManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSOManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPOManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.Resources.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSOPendingManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.sales_order.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Rio\obj\Release\Program Toko Om Acu.vbproj.GenerateResource.Cache
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Acu.exe
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Acu.pdb
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-25Jan2012\Program Toko Acu.xml
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program Toko Acu.exe
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program Toko Acu.xml
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program Toko Acu.pdb
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\ResolveAssemblyReference.cache
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapLR.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPB.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPembayaranPiutang.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPembayaranUtang.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPenjualan.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapreturBeli.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapReturJualNew.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapSO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSalesPaymentByDate.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportFaktur.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPB.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPBFising.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPOFising.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturBeli.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturBeliFising.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturJual.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSJ.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSO.rpt
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBahanMentahHistory.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentahSubKategori.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBarangHistory.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBarang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsPaku.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseHitungKeluar.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseKlemPantek.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePantekKeluar.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseKaryawan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBahanMentahPaku.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBahanMentah.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePB.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSupplier.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsFormulaPantek.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBackUpDB.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBarang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSales.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseToko.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseFaktur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseStatusRetur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBarangAdjustment.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormKomisiSales.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsKaryawan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentah.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsProfile.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CRA.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CRLaporan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.CRPrintTransaksi.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapLabaRugi.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPembayaranPiutang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPembayaranUtang.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPenerimaan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPenjualan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapReturBeli.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapReturJual.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapSO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungDiterimaManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungDiterima.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitung.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPenggajianManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPenggajian.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekDiterima.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekDiterimaManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPurchasePayment.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPurchasePaymentManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPenerimaanBahanMentahM.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrReturPembelian.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrReturPembelianM.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseTanggalSuratJalan.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantek.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPaymentByDateManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormRetur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormReturManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormFakturManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLogin.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentahTipe.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsKategori.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsMerk.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsSales.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsProvinsi.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMain.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsSupplier.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsToko.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsUser.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormFaktur.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPayment.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPaymentManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSO.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSOManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPOManagement.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.Resources.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSOPendingManagamen.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.sales_order.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program Toko Om Acu.vbproj.GenerateResource.Cache
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Acu.exe
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Acu.pdb
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Acu.xml
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPenerimaanBahanMentah_backup.resources
+E:\Mine\PROJECT OM ACU\ProgramOmAcu-27Jan2012\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPO_backup.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program Toko Acu.exe
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program Toko Acu.xml
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program Toko Acu.pdb
+E:\Project\OM ACU\Program Toko Rio\obj\Release\ResolveAssemblyReference.cache
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapLR.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPB.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPembayaranPiutang.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPembayaranUtang.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPenjualan.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapPO.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapreturBeli.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapReturJualNew.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportLapSO.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSalesPaymentByDate.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportFaktur.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPB.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPBFising.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPO.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportPOFising.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturBeli.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturBeliFising.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportReturJual.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSJ.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CrystalReportSO.rpt
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBahanMentahHistory.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentahSubKategori.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBarangHistory.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBarang.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsPaku.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseHitungKeluar.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseKlemPantek.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePantekKeluar.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseKaryawan.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBahanMentahPaku.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBahanMentah.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePB.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePO.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSupplier.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsFormulaPantek.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBackUpDB.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBarang.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSales.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseToko.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseFaktur.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSO.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseStatusRetur.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBarangAdjustment.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormKomisiSales.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsKaryawan.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentah.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsProfile.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CRA.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CRLaporan.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.CRPrintTransaksi.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapLabaRugi.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPembayaranPiutang.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPembayaranUtang.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPenerimaan.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPenjualan.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapPO.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapReturBeli.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapReturJual.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLapSO.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPO.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungDiterimaManagement.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungDiterima.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitungManagement.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiHitung.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPenggajianManagement.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPenggajian.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekDiterima.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekDiterimaManagement.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantekManagement.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPurchasePayment.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormPurchasePaymentManagamen.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPenerimaanBahanMentah_backup.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPenerimaanBahanMentahM.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPO_backup.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrReturPembelian.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrReturPembelianM.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseTanggalSuratJalan.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormProduksiPantek.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPaymentByDateManagamen.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormRetur.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormReturManagamen.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormFakturManagamen.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormLogin.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsBahanMentahTipe.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsKategori.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsMerk.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsSales.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsProvinsi.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMain.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsSupplier.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsToko.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsUser.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormFaktur.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPayment.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSalesPaymentManagamen.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSO.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSOManagamen.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormTrPOManagement.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.Resources.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormSOPendingManagamen.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.sales_order.resources
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program Toko Om Acu.vbproj.GenerateResource.Cache
+E:\Project\OM ACU\Program Toko Acu.exe
+E:\Project\OM ACU\Program Toko Acu.pdb
+E:\Project\OM ACU\Program Toko Acu.xml

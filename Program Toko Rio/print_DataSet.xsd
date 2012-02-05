@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="sales_order" msprop:Generator_UserTableName="sales_order" msprop:Generator_RowDeletedName="Sales_OrderRowDeleted" msprop:Generator_TableClassName="Sales_OrderDataTable" msprop:Generator_RowChangedName="Sales_OrderRowChanged" msprop:Generator_RowClassName="Sales_OrderRow" msprop:Generator_RowChangingName="Sales_OrderRowChanging" msprop:Generator_RowEvArgName="Sales_OrderRowChangeEvent" msprop:Generator_RowEvHandlerName="Sales_OrderRowChangeEventHandler" msprop:Generator_TablePropName="Sales_Order" msprop:Generator_TableVarName="tableSales_Order" msprop:Generator_RowDeletingName="Sales_OrderRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KdSO" msprop:Generator_UserColumnName="KdSO" msprop:Generator_ColumnPropNameInRow="KdSO" msprop:Generator_ColumnVarNameInTable="columnKdSO" msprop:Generator_ColumnPropNameInTable="KdSOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TanggalSO" msprop:Generator_UserColumnName="TanggalSO" msprop:Generator_ColumnPropNameInRow="TanggalSO" msprop:Generator_ColumnVarNameInTable="columnTanggalSO" msprop:Generator_ColumnPropNameInTable="TanggalSOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaSales" msprop:Generator_UserColumnName="NamaSales" msprop:Generator_ColumnPropNameInRow="NamaSales" msprop:Generator_ColumnVarNameInTable="columnNamaSales" msprop:Generator_ColumnPropNameInTable="NamaSalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaToko" msprop:Generator_UserColumnName="NamaToko" msprop:Generator_ColumnPropNameInRow="NamaToko" msprop:Generator_ColumnVarNameInTable="columnNamaToko" msprop:Generator_ColumnPropNameInTable="NamaTokoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="KdBarang" msprop:Generator_UserColumnName="KdBarang" msprop:Generator_ColumnPropNameInRow="KdBarang" msprop:Generator_ColumnVarNameInTable="columnKdBarang" msprop:Generator_ColumnPropNameInTable="KdBarangColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaBarang" msprop:Generator_UserColumnName="NamaBarang" msprop:Generator_ColumnPropNameInRow="NamaBarang" msprop:Generator_ColumnVarNameInTable="columnNamaBarang" msprop:Generator_ColumnPropNameInTable="NamaBarangColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Harga" msprop:Generator_UserColumnName="Harga" msprop:Generator_ColumnPropNameInRow="Harga" msprop:Generator_ColumnVarNameInTable="columnHarga" msprop:Generator_ColumnPropNameInTable="HargaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HargaDisc" msprop:Generator_UserColumnName="HargaDisc" msprop:Generator_ColumnPropNameInRow="HargaDisc" msprop:Generator_ColumnVarNameInTable="columnHargaDisc" msprop:Generator_ColumnPropNameInTable="HargaDiscColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Disc" msprop:Generator_UserColumnName="Disc" msprop:Generator_ColumnPropNameInRow="Disc" msprop:Generator_ColumnVarNameInTable="columnDisc" msprop:Generator_ColumnPropNameInTable="DiscColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_UserColumnName="Qty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInTable="QtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Subtotal" msdata:ReadOnly="true" msdata:Expression="HargaDisc*Qty" msprop:Generator_UserColumnName="Subtotal" msprop:Generator_ColumnPropNameInRow="Subtotal" msprop:Generator_ColumnVarNameInTable="columnSubtotal" msprop:Generator_ColumnPropNameInTable="SubtotalColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

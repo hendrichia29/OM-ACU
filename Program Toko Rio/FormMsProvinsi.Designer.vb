@@ -1,0 +1,380 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class FormMsProvinsi
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormMsProvinsi))
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.Button1 = New System.Windows.Forms.Button
+        Me.txtCari = New System.Windows.Forms.TextBox
+        Me.cmbCari = New System.Windows.Forms.ComboBox
+        Me.Label17 = New System.Windows.Forms.Label
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox
+        Me.cmbArea = New System.Windows.Forms.ComboBox
+        Me.Label26 = New System.Windows.Forms.Label
+        Me.txtNama = New System.Windows.Forms.TextBox
+        Me.Label27 = New System.Windows.Forms.Label
+        Me.lblKodekaryawan = New System.Windows.Forms.Label
+        Me.Label18 = New System.Windows.Forms.Label
+        Me.Label4 = New System.Windows.Forms.Label
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.txtID = New System.Windows.Forms.TextBox
+        Me.main_tool_strip = New System.Windows.Forms.ToolStrip
+        Me.btnAdd = New System.Windows.Forms.ToolStripButton
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator
+        Me.btnUpdate = New System.Windows.Forms.ToolStripButton
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator
+        Me.btnDelete = New System.Windows.Forms.ToolStripButton
+        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator
+        Me.btnSave = New System.Windows.Forms.ToolStripButton
+        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator
+        Me.btnCancel = New System.Windows.Forms.ToolStripButton
+        Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator
+        Me.btnExit = New System.Windows.Forms.ToolStripButton
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.main_tool_strip.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.AllowUserToAddRows = False
+        Me.DataGridView1.AllowUserToDeleteRows = False
+        Me.DataGridView1.AllowUserToOrderColumns = True
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 278)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.ReadOnly = True
+        Me.DataGridView1.RowHeadersWidth = 40
+        Me.DataGridView1.Size = New System.Drawing.Size(516, 314)
+        Me.DataGridView1.TabIndex = 7
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Button1)
+        Me.GroupBox1.Controls.Add(Me.txtCari)
+        Me.GroupBox1.Controls.Add(Me.cmbCari)
+        Me.GroupBox1.Controls.Add(Me.Label17)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 203)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(516, 53)
+        Me.GroupBox1.TabIndex = 471
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Pencarian"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(446, 19)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(64, 23)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "RESET"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'txtCari
+        '
+        Me.txtCari.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCari.Location = New System.Drawing.Point(280, 20)
+        Me.txtCari.MaxLength = 100
+        Me.txtCari.Name = "txtCari"
+        Me.txtCari.Size = New System.Drawing.Size(162, 22)
+        Me.txtCari.TabIndex = 5
+        '
+        'cmbCari
+        '
+        Me.cmbCari.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbCari.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbCari.FormattingEnabled = True
+        Me.cmbCari.Location = New System.Drawing.Point(136, 18)
+        Me.cmbCari.Name = "cmbCari"
+        Me.cmbCari.Size = New System.Drawing.Size(137, 24)
+        Me.cmbCari.TabIndex = 4
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(12, 21)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(86, 16)
+        Me.Label17.TabIndex = 351
+        Me.Label17.Text = "Berdasarkan"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.cmbArea)
+        Me.GroupBox2.Controls.Add(Me.Label26)
+        Me.GroupBox2.Controls.Add(Me.txtNama)
+        Me.GroupBox2.Controls.Add(Me.Label27)
+        Me.GroupBox2.Controls.Add(Me.lblKodekaryawan)
+        Me.GroupBox2.Controls.Add(Me.Label18)
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Controls.Add(Me.Label1)
+        Me.GroupBox2.Controls.Add(Me.txtID)
+        Me.GroupBox2.Location = New System.Drawing.Point(47, 55)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(442, 130)
+        Me.GroupBox2.TabIndex = 479
+        Me.GroupBox2.TabStop = False
+        '
+        'cmbArea
+        '
+        Me.cmbArea.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbArea.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbArea.FormattingEnabled = True
+        Me.cmbArea.Location = New System.Drawing.Point(157, 77)
+        Me.cmbArea.Name = "cmbArea"
+        Me.cmbArea.Size = New System.Drawing.Size(236, 24)
+        Me.cmbArea.TabIndex = 3
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.ForeColor = System.Drawing.Color.Red
+        Me.Label26.Location = New System.Drawing.Point(399, 81)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(15, 20)
+        Me.Label26.TabIndex = 551
+        Me.Label26.Text = "*"
+        '
+        'txtNama
+        '
+        Me.txtNama.Enabled = False
+        Me.txtNama.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNama.Location = New System.Drawing.Point(157, 49)
+        Me.txtNama.MaxLength = 200
+        Me.txtNama.Name = "txtNama"
+        Me.txtNama.Size = New System.Drawing.Size(236, 22)
+        Me.txtNama.TabIndex = 2
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(17, 80)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(37, 16)
+        Me.Label27.TabIndex = 550
+        Me.Label27.Text = "Area"
+        '
+        'lblKodekaryawan
+        '
+        Me.lblKodekaryawan.AutoSize = True
+        Me.lblKodekaryawan.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblKodekaryawan.Location = New System.Drawing.Point(17, 27)
+        Me.lblKodekaryawan.Name = "lblKodekaryawan"
+        Me.lblKodekaryawan.Size = New System.Drawing.Size(91, 16)
+        Me.lblKodekaryawan.TabIndex = 431
+        Me.lblKodekaryawan.Text = "Kode Provinsi"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(17, 54)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(96, 16)
+        Me.Label18.TabIndex = 432
+        Me.Label18.Text = "Nama Provinsi"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.Red
+        Me.Label4.Location = New System.Drawing.Point(399, 50)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(15, 20)
+        Me.Label4.TabIndex = 464
+        Me.Label4.Text = "*"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Red
+        Me.Label1.Location = New System.Drawing.Point(17, 106)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(85, 16)
+        Me.Label1.TabIndex = 433
+        Me.Label1.Text = "* : Harus diisi"
+        '
+        'txtID
+        '
+        Me.txtID.Enabled = False
+        Me.txtID.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtID.Location = New System.Drawing.Point(157, 21)
+        Me.txtID.Name = "txtID"
+        Me.txtID.Size = New System.Drawing.Size(122, 22)
+        Me.txtID.TabIndex = 1
+        '
+        'main_tool_strip
+        '
+        Me.main_tool_strip.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.main_tool_strip.ImageScalingSize = New System.Drawing.Size(32, 32)
+        Me.main_tool_strip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnAdd, Me.ToolStripSeparator1, Me.btnUpdate, Me.ToolStripSeparator2, Me.btnDelete, Me.ToolStripSeparator3, Me.btnSave, Me.ToolStripSeparator4, Me.btnCancel, Me.ToolStripSeparator5, Me.btnExit})
+        Me.main_tool_strip.Location = New System.Drawing.Point(0, 0)
+        Me.main_tool_strip.Name = "main_tool_strip"
+        Me.main_tool_strip.Size = New System.Drawing.Size(566, 52)
+        Me.main_tool_strip.TabIndex = 480
+        Me.main_tool_strip.Text = "Tool Strip"
+        '
+        'btnAdd
+        '
+        Me.btnAdd.Image = CType(resources.GetObject("btnAdd.Image"), System.Drawing.Image)
+        Me.btnAdd.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnAdd.Name = "btnAdd"
+        Me.btnAdd.Size = New System.Drawing.Size(49, 49)
+        Me.btnAdd.Text = "Tambah"
+        Me.btnAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 52)
+        '
+        'btnUpdate
+        '
+        Me.btnUpdate.Image = CType(resources.GetObject("btnUpdate.Image"), System.Drawing.Image)
+        Me.btnUpdate.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnUpdate.Name = "btnUpdate"
+        Me.btnUpdate.Size = New System.Drawing.Size(36, 49)
+        Me.btnUpdate.Text = "Ubah"
+        Me.btnUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnUpdate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripSeparator2
+        '
+        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 52)
+        '
+        'btnDelete
+        '
+        Me.btnDelete.Image = CType(resources.GetObject("btnDelete.Image"), System.Drawing.Image)
+        Me.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(41, 49)
+        Me.btnDelete.Text = "Hapus"
+        Me.btnDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripSeparator3
+        '
+        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 52)
+        '
+        'btnSave
+        '
+        Me.btnSave.Image = CType(resources.GetObject("btnSave.Image"), System.Drawing.Image)
+        Me.btnSave.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(45, 49)
+        Me.btnSave.Text = "Simpan"
+        Me.btnSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripSeparator4
+        '
+        Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 52)
+        '
+        'btnCancel
+        '
+        Me.btnCancel.Image = CType(resources.GetObject("btnCancel.Image"), System.Drawing.Image)
+        Me.btnCancel.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(36, 49)
+        Me.btnCancel.Text = "Batal"
+        Me.btnCancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnCancel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripSeparator5
+        '
+        Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
+        Me.ToolStripSeparator5.Size = New System.Drawing.Size(6, 52)
+        '
+        'btnExit
+        '
+        Me.btnExit.Image = CType(resources.GetObject("btnExit.Image"), System.Drawing.Image)
+        Me.btnExit.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(41, 49)
+        Me.btnExit.Text = "Keluar"
+        Me.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'FormMsProvinsi
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(566, 604)
+        Me.Controls.Add(Me.main_tool_strip)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.DataGridView1)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
+        Me.Name = "FormMsProvinsi"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Master Provinsi"
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.main_tool_strip.ResumeLayout(False)
+        Me.main_tool_strip.PerformLayout()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents txtCari As System.Windows.Forms.TextBox
+    Friend WithEvents cmbCari As System.Windows.Forms.ComboBox
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents txtNama As System.Windows.Forms.TextBox
+    Friend WithEvents lblKodekaryawan As System.Windows.Forms.Label
+    Friend WithEvents Label18 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents txtID As System.Windows.Forms.TextBox
+    Friend WithEvents main_tool_strip As System.Windows.Forms.ToolStrip
+    Friend WithEvents btnAdd As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents btnUpdate As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents btnDelete As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripSeparator3 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents btnSave As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripSeparator4 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents btnCancel As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripSeparator5 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents btnExit As System.Windows.Forms.ToolStripButton
+    Friend WithEvents cmbArea As System.Windows.Forms.ComboBox
+    Friend WithEvents Label26 As System.Windows.Forms.Label
+    Friend WithEvents Label27 As System.Windows.Forms.Label
+
+End Class

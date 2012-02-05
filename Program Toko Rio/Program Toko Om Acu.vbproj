@@ -337,6 +337,12 @@
     <Compile Include="Laporan\FormLapSO.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Pembelian\FormTrPOManagementKlemJadi.Designer.vb">
+      <DependentUpon>FormTrPOManagementKlemJadi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pembelian\FormTrPOManagementKlemJadi.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Pembelian\FormTrPO.designer.vb">
       <DependentUpon>FormTrPO.vb</DependentUpon>
     </Compile>
@@ -924,6 +930,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Laporan\FormLapSO.resx">
       <DependentUpon>FormLapSO.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pembelian\FormTrPOManagementKlemJadi.resx">
+      <DependentUpon>FormTrPOManagementKlemJadi.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Pembelian\FormTrPO.resx">

@@ -361,7 +361,6 @@ E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBahanM
 E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePB.resources
 E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowsePO.resources
 E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSupplier.resources
-E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsFormulaPantek.resources
 E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBackUpDB.resources
 E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseBarang.resources
 E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormBrowseSales.resources
@@ -432,3 +431,4 @@ E:\Project\OM ACU\Program Toko Rio\obj\Release\Program Toko Om Acu.vbproj.Genera
 E:\Project\OM ACU\Program Toko Acu.exe
 E:\Project\OM ACU\Program Toko Acu.pdb
 E:\Project\OM ACU\Program Toko Acu.xml
+E:\Project\OM ACU\Program Toko Rio\obj\Release\Program_Toko_Acu.FormMsFormula.resources

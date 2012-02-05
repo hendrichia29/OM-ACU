@@ -375,10 +375,6 @@ Public Class FormMain
         open_page("FormSalesPayment", "tanggal")
     End Sub
 
-    Private Sub PantekToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PantekToolStripMenuItem.Click
-        open_page("FormMsFormula")
-    End Sub
-
     Private Sub BarangKeluarToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BarangKeluarToolStripMenuItem.Click
         open_page("FormProduksiPantek")
     End Sub
@@ -401,5 +397,13 @@ Public Class FormMain
 
     Private Sub PakuToolStripMenuItem9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PakuToolStripMenuItem9.Click
         open_page("FormSalesPayment", "toko", "paku")
+    End Sub
+
+    Private Sub FormulaProduksiToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FormulaProduksiToolStripMenuItem.Click
+        open_page("FormMsFormula")
+    End Sub
+
+    Private Sub KlemJadiToolStripMenuItem5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles KlemJadiToolStripMenuItem5.Click
+        open_page("FormTrPO", "klem_jadi")
     End Sub
 End Class

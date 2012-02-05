@@ -246,7 +246,7 @@ Module tool_module
             form.Show()
             opened_page = "FormLapPembayaranUtang"
         ElseIf page_to_open = "FormMsFormula" Then
-            form = New FormMsFormulaPantek
+            form = New FormMsFormula
             form.MdiParent = FormMain
             form.Show()
             opened_page = "FormMsFormula"

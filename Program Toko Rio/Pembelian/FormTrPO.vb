@@ -116,8 +116,12 @@ Public Class FormTrPO
         type_pb = data_carier(0)
         If type_pb = "klem" Then
             Me.Text = "Penerimaan Klem Mentah"
-        Else
+        ElseIf type_pb = "paku" Then
             Me.Text = "Penerimaan Paku"
+        ElseIf type_pb = "klem_jadi" Then
+            Me.Text = "Penerimaan Klem Jadi"
+        Else
+            Me.Close()
         End If
 
         viewAllData("", "")

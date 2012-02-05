@@ -61,7 +61,7 @@ Public Class FormProduksiPantekDiterimaManagement
                                         " from trpantek_diterima_detail pantek " & _
                                         " Join MsBahanMentah klem On klem.KdBahanMentah = KdKlemMentah " & _
                                         " Join MsBahanMentah paku On paku.KdBahanMentah = KdPaku " & _
-                                        " join msformulapantek mfp on mfp.UkuranKlemMentah = klem.Ukuran " & _
+                                        " join msformula mfp on mfp.UkuranKlemMentah = klem.Ukuran " & _
                                         " where KdPantekDiterima = '" & PK & "' " & _
                                         " GROUP BY klem.KdBahanMentah, paku.KdBahanMentah " & _
                                         " order by klem.NamaBahanMentah asc ")
@@ -355,7 +355,7 @@ Public Class FormProduksiPantekDiterimaManagement
                   " from  trpantekdetail pd " & _
                   " join msBahanMentah bm on bm.kdBahanMentah = pd.KdKlemMentah " & _
                   " join msBahanMentah paku on paku.kdBahanMentah = pd.KdPaku " & _
-                  " join msformulapantek mfp on mfp.UkuranKlemMentah = bm.Ukuran " & _
+                  " join msformula mfp on mfp.UkuranKlemMentah = bm.Ukuran " & _
                   " where pd.KdPantek='" & cmbPantekKeluar.Text & "' "
             reader = execute_reader(sql)
             Dim harga As Double = 0

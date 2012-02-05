@@ -34,8 +34,6 @@ Partial Class FormMain
         Me.MerkToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.BarangJadiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.FormulaProduksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.PantekToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.HitungKlemToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.TransactionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.PurchaseOrderToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.PurchaseOrderToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem
@@ -132,6 +130,7 @@ Partial Class FormMain
         Me.BayarPerTanggalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator
         Me.btn_logout = New System.Windows.Forms.ToolStripButton
+        Me.KlemJadiToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem
         btn_dashboard = New System.Windows.Forms.ToolStripButton
         Me.main_menu_strip.SuspendLayout()
         Me.main_tool_strip.SuspendLayout()
@@ -230,22 +229,9 @@ Partial Class FormMain
         '
         'FormulaProduksiToolStripMenuItem
         '
-        Me.FormulaProduksiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PantekToolStripMenuItem, Me.HitungKlemToolStripMenuItem})
         Me.FormulaProduksiToolStripMenuItem.Name = "FormulaProduksiToolStripMenuItem"
         Me.FormulaProduksiToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.FormulaProduksiToolStripMenuItem.Text = "Formula Produksi"
-        '
-        'PantekToolStripMenuItem
-        '
-        Me.PantekToolStripMenuItem.Name = "PantekToolStripMenuItem"
-        Me.PantekToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
-        Me.PantekToolStripMenuItem.Text = "Pantek Klem"
-        '
-        'HitungKlemToolStripMenuItem
-        '
-        Me.HitungKlemToolStripMenuItem.Name = "HitungKlemToolStripMenuItem"
-        Me.HitungKlemToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
-        Me.HitungKlemToolStripMenuItem.Text = "Hitung Klem"
         '
         'TransactionToolStripMenuItem
         '
@@ -304,7 +290,7 @@ Partial Class FormMain
         '
         Me.ReturnOrderToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem11, Me.ToolStripMenuItem12})
         Me.ReturnOrderToolStripMenuItem.Name = "ReturnOrderToolStripMenuItem"
-        Me.ReturnOrderToolStripMenuItem.Size = New System.Drawing.Size(194, 22)
+        Me.ReturnOrderToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
         Me.ReturnOrderToolStripMenuItem.Text = "Retur"
         '
         'ToolStripMenuItem11
@@ -323,7 +309,7 @@ Partial Class FormMain
         '
         Me.PurchasePaymentToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem13, Me.ToolStripMenuItem14})
         Me.PurchasePaymentToolStripMenuItem.Name = "PurchasePaymentToolStripMenuItem"
-        Me.PurchasePaymentToolStripMenuItem.Size = New System.Drawing.Size(194, 22)
+        Me.PurchasePaymentToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
         Me.PurchasePaymentToolStripMenuItem.Text = "Pembayaran"
         '
         'ToolStripMenuItem13
@@ -678,7 +664,7 @@ Partial Class FormMain
         '
         'PurchaseOrderToolStripMenuItem2
         '
-        Me.PurchaseOrderToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.KlemMentahToolStripMenuItem, Me.PakuToolStripMenuItem4})
+        Me.PurchaseOrderToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.KlemMentahToolStripMenuItem, Me.PakuToolStripMenuItem4, Me.KlemJadiToolStripMenuItem5})
         Me.PurchaseOrderToolStripMenuItem2.Image = CType(resources.GetObject("PurchaseOrderToolStripMenuItem2.Image"), System.Drawing.Image)
         Me.PurchaseOrderToolStripMenuItem2.Name = "PurchaseOrderToolStripMenuItem2"
         Me.PurchaseOrderToolStripMenuItem2.Size = New System.Drawing.Size(193, 38)
@@ -687,13 +673,13 @@ Partial Class FormMain
         'KlemMentahToolStripMenuItem
         '
         Me.KlemMentahToolStripMenuItem.Name = "KlemMentahToolStripMenuItem"
-        Me.KlemMentahToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.KlemMentahToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.KlemMentahToolStripMenuItem.Text = "Klem Mentah"
         '
         'PakuToolStripMenuItem4
         '
         Me.PakuToolStripMenuItem4.Name = "PakuToolStripMenuItem4"
-        Me.PakuToolStripMenuItem4.Size = New System.Drawing.Size(152, 22)
+        Me.PakuToolStripMenuItem4.Size = New System.Drawing.Size(145, 22)
         Me.PakuToolStripMenuItem4.Text = "Paku"
         '
         'PurchaseReturnToolStripMenuItem1
@@ -701,20 +687,20 @@ Partial Class FormMain
         Me.PurchaseReturnToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.KlemToolStripMenuItem1, Me.PakuToolStripMenuItem5})
         Me.PurchaseReturnToolStripMenuItem1.Image = CType(resources.GetObject("PurchaseReturnToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.PurchaseReturnToolStripMenuItem1.Name = "PurchaseReturnToolStripMenuItem1"
-        Me.PurchaseReturnToolStripMenuItem1.Size = New System.Drawing.Size(193, 38)
+        Me.PurchaseReturnToolStripMenuItem1.Size = New System.Drawing.Size(177, 22)
         Me.PurchaseReturnToolStripMenuItem1.Text = "Penerimaan Barang"
         Me.PurchaseReturnToolStripMenuItem1.Visible = False
         '
         'KlemToolStripMenuItem1
         '
         Me.KlemToolStripMenuItem1.Name = "KlemToolStripMenuItem1"
-        Me.KlemToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.KlemToolStripMenuItem1.Size = New System.Drawing.Size(145, 22)
         Me.KlemToolStripMenuItem1.Text = "Klem Mentah"
         '
         'PakuToolStripMenuItem5
         '
         Me.PakuToolStripMenuItem5.Name = "PakuToolStripMenuItem5"
-        Me.PakuToolStripMenuItem5.Size = New System.Drawing.Size(152, 22)
+        Me.PakuToolStripMenuItem5.Size = New System.Drawing.Size(145, 22)
         Me.PakuToolStripMenuItem5.Text = "Paku"
         '
         'ToolStripMenuItem2
@@ -722,7 +708,7 @@ Partial Class FormMain
         Me.ToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.KlemMentahToolStripMenuItem1, Me.PakuToolStripMenuItem6})
         Me.ToolStripMenuItem2.Image = CType(resources.GetObject("ToolStripMenuItem2.Image"), System.Drawing.Image)
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(193, 38)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(177, 22)
         Me.ToolStripMenuItem2.Text = "Retur"
         '
         'KlemMentahToolStripMenuItem1
@@ -742,7 +728,7 @@ Partial Class FormMain
         Me.PurchasePaymentToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.KlemMentahToolStripMenuItem2, Me.PakuToolStripMenuItem7})
         Me.PurchasePaymentToolStripMenuItem1.Image = CType(resources.GetObject("PurchasePaymentToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.PurchasePaymentToolStripMenuItem1.Name = "PurchasePaymentToolStripMenuItem1"
-        Me.PurchasePaymentToolStripMenuItem1.Size = New System.Drawing.Size(193, 38)
+        Me.PurchasePaymentToolStripMenuItem1.Size = New System.Drawing.Size(177, 22)
         Me.PurchasePaymentToolStripMenuItem1.Text = "Purchase Payment"
         '
         'KlemMentahToolStripMenuItem2
@@ -884,6 +870,12 @@ Partial Class FormMain
         Me.btn_logout.Text = "Log Out"
         Me.btn_logout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
+        'KlemJadiToolStripMenuItem5
+        '
+        Me.KlemJadiToolStripMenuItem5.Name = "KlemJadiToolStripMenuItem5"
+        Me.KlemJadiToolStripMenuItem5.Size = New System.Drawing.Size(152, 22)
+        Me.KlemJadiToolStripMenuItem5.Text = "Klem Jadi"
+        '
         'FormMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1007,8 +999,6 @@ Partial Class FormMain
     Friend WithEvents BayarPerFakturToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents BayarPerTanggalToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents FormulaProduksiToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents PantekToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents HitungKlemToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PantekKlemToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents BarangKeluarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents BarangDiterrimaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -1018,4 +1008,5 @@ Partial Class FormMain
     Friend WithEvents PenggajianToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator3 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents PakuToolStripMenuItem9 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents KlemJadiToolStripMenuItem5 As System.Windows.Forms.ToolStripMenuItem
 End Class

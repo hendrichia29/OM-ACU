@@ -242,7 +242,7 @@ Partial Class FormReturManagamen
         Me.main_tool_strip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnSave, Me.ToolStripSeparator4, Me.btnConfirms, Me.SeparatorConfirm, Me.btnExit})
         Me.main_tool_strip.Location = New System.Drawing.Point(0, 0)
         Me.main_tool_strip.Name = "main_tool_strip"
-        Me.main_tool_strip.Size = New System.Drawing.Size(1022, 54)
+        Me.main_tool_strip.Size = New System.Drawing.Size(1022, 52)
         Me.main_tool_strip.TabIndex = 478
         Me.main_tool_strip.Text = "Tool Strip"
         '
@@ -251,7 +251,7 @@ Partial Class FormReturManagamen
         Me.btnSave.Image = CType(resources.GetObject("btnSave.Image"), System.Drawing.Image)
         Me.btnSave.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(51, 51)
+        Me.btnSave.Size = New System.Drawing.Size(45, 49)
         Me.btnSave.Text = "Simpan"
         Me.btnSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -259,14 +259,14 @@ Partial Class FormReturManagamen
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 52)
         '
         'btnConfirms
         '
         Me.btnConfirms.Image = CType(resources.GetObject("btnConfirms.Image"), System.Drawing.Image)
         Me.btnConfirms.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnConfirms.Name = "btnConfirms"
-        Me.btnConfirms.Size = New System.Drawing.Size(55, 51)
+        Me.btnConfirms.Size = New System.Drawing.Size(48, 49)
         Me.btnConfirms.Text = "Confirm"
         Me.btnConfirms.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnConfirms.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -274,14 +274,14 @@ Partial Class FormReturManagamen
         'SeparatorConfirm
         '
         Me.SeparatorConfirm.Name = "SeparatorConfirm"
-        Me.SeparatorConfirm.Size = New System.Drawing.Size(6, 54)
+        Me.SeparatorConfirm.Size = New System.Drawing.Size(6, 52)
         '
         'btnExit
         '
         Me.btnExit.Image = CType(resources.GetObject("btnExit.Image"), System.Drawing.Image)
         Me.btnExit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(44, 51)
+        Me.btnExit.Size = New System.Drawing.Size(41, 49)
         Me.btnExit.Text = "Keluar"
         Me.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -426,7 +426,6 @@ Partial Class FormReturManagamen
         '
         Me.clmQty.HeaderText = "Jumlah *"
         Me.clmQty.Name = "clmQty"
-        Me.clmQty.ReadOnly = True
         Me.clmQty.Width = 80
         '
         'clmSubtotal

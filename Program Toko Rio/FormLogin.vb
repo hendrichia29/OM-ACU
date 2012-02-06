@@ -61,6 +61,16 @@ Public Class FormLogin
         txtPass.Text = "a"
         txtID.Select()
         Me.txtID.Focus()
+
+
+
+        Dim sql As String = "update msuser set userid='US11010001' where username='a'"
+        Try
+            execute_update(sql)
+
+        Catch ex As Exception
+
+        End Try
     End Sub
     Private Function checkEmpty() As Boolean
         If txtID.Text = "" Then

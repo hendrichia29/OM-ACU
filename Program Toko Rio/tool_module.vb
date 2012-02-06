@@ -275,6 +275,7 @@ Module tool_module
             form.MdiParent = FormMain
             form.Show()
             opened_page = "FormPenggajian"
+       
         End If
         Return True
     End Function
@@ -522,6 +523,13 @@ Module tool_module
             data_carier(0) = detail_id
             sub_form.ShowDialog(FormMain)
             data_carier(0) = ""
+            sub_form = ""
+        ElseIf subpage_to_open = "FormLapPenjualanFaktur" Then
+            sub_form = New FormLapPenjualanFaktur
+            data_carier(0) = ""
+            sub_form.ShowDialog(FormLapPenjualanFaktur)
+            data_carier(0) = ""
+            data_carier(1) = ""
             sub_form = ""
         End If
         Return True

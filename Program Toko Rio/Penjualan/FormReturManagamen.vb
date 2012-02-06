@@ -295,9 +295,9 @@ Public Class FormReturManagamen
                                & " '" & Trim(txtID.Text) & "','" & KdBarang & "', " _
                                & " '" & harga & "', '" & Qty & "', " _
                                & " '" & disc & "','" & statusBarang & "','" & hargaDisc & "')"
-                MsgBox(1)
+
                 execute_update_manual(sqlDetail)
-                MsgBox(2)
+
             End If
         Next
 

@@ -1,6 +1,6 @@
 Module ModuleProgram
     Public sql As String
-    Public dbName As String = "db_tokoacu "
+    Public dbName As String = "db_dai "
     Public kdKaryawan As String
     Public namaKaryawan As String
     Public data_carier(6) 'variable for parameter passing

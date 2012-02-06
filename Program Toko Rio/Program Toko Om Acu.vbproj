@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <StartupObject>Program_Toko_Acu.My.MyApplication</StartupObject>
     <RootNamespace>Program_Toko_Acu</RootNamespace>
-    <AssemblyName>Program Toko Acu</AssemblyName>
+    <AssemblyName>Program Toko Acu-5feb</AssemblyName>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -18,7 +18,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Program Toko Acu.xml</DocumentationFile>
+    <DocumentationFile>Program Toko Acu-5feb.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -27,7 +27,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>..\</OutputPath>
-    <DocumentationFile>Program Toko Acu.xml</DocumentationFile>
+    <DocumentationFile>Program Toko Acu-5feb.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
@@ -144,6 +144,12 @@
     </Compile>
     <Compile Include="Browse\FormBrowseSupplier.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRLaporan\CrystalReportLapPenjualanFk.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReportLapPenjualanFk.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="FormMsFormula.Designer.vb">
       <DependentUpon>FormMsFormula.vb</DependentUpon>
@@ -311,6 +317,12 @@
       <DependentUpon>FormLapPenjualan.vb</DependentUpon>
     </Compile>
     <Compile Include="Laporan\FormLapPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FormLapPenjualanFaktur.Designer.vb">
+      <DependentUpon>FormLapPenjualanFaktur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FormLapPenjualanFaktur.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Laporan\FormLapPO.designer.vb">
@@ -752,6 +764,10 @@
       <DependentUpon>FormBrowseSupplier.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="CRLaporan\CrystalReportLapPenjualanFk.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportLapPenjualanFk.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMsFormula.resx">
       <DependentUpon>FormMsFormula.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -914,6 +930,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Laporan\FormLapPenjualan.resx">
       <DependentUpon>FormLapPenjualan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FormLapPenjualanFaktur.resx">
+      <DependentUpon>FormLapPenjualanFaktur.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Laporan\FormLapPO.resx">

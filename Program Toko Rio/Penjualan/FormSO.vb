@@ -57,7 +57,8 @@ Public Class FormSO
     Private Sub viewAllData(ByVal cr As String, ByVal opt As String)
         sql = " select Distinct SO.KdSO 'No. SO',DATE_FORMAT(TanggalSO,'%d %M %Y') Tanggal, " & _
               " NamaLengkap 'Nama User', NamaSales 'Nama Sales', " & _
-              " NamaToko 'Nama Toko', FORMAT(Grandtotal, 0) Grandtotal, " & _
+              " NamaToko 'Nama Toko',FORMAT(Jumlah,0) `Grandtotal Sblm Disc`,SO.Disc `Diskon(%)`," & _
+              " FORMAT(Grandtotal, 0) Grandtotal, " & _
               " CASE WHEN StatusSO = 0 THEN 'New' WHEN StatusSO = 1 THEN 'New' " & _
               " WHEN StatusSO = 2 THEN 'Faktur' WHEN StatusSO = 3 THEN 'Confirm' " & _
               " WHEN StatusSO = 4 THEN 'Faktur - Pending' End 'Status SO' " & _
@@ -111,7 +112,7 @@ Public Class FormSO
         DataGridView1.Columns(2).Width = 100
         DataGridView1.Columns(3).Width = 100
         DataGridView1.Columns(4).Width = 100
-        DataGridView1.Columns(5).Width = 100
+        DataGridView1.Columns(5).Width = 150
     End Sub
 
     Function visibleDate()
@@ -263,7 +264,8 @@ Public Class FormSO
             If jenisSO = "klem" Then
                 query = "select So.KdSO,TanggalSO,GrandTotal,StatusSO,SOD.KdBarang,NamaBarang, " & _
                         " HargaDisc `Harga`,SOD.Qty,SOD.Disc,Statusbarang,MS.NamaSales,MS.Alamat,MS.NoTelp NoTelpSales,MS.NoHP NoHPSales,  " & _
-                        " MT.NamaToko,MT.AlamatToko,MT.Daerah,MT.NoTelp NoTelpCustomer,Mt.NoHP NoHPCustomer " & _
+                        " MT.NamaToko,MT.AlamatToko,MT.Daerah,MT.NoTelp NoTelpCustomer,Mt.NoHP NoHPCustomer, " & _
+                        " SO.Disc DiscSO,SO.GrandTotal GrandtotalSO " & _
                         " from TrSalesOrder SO " & _
                         " join trSalesOrderdetail SOD on SOD.KdSO = so.kdso  " & _
                         " Join MsSales MS On MS.KdSales = SO.KdSales  " & _
@@ -275,7 +277,8 @@ Public Class FormSO
             Else
                 query = "select So.KdSO,TanggalSO,GrandTotal,StatusSO,MB.KdBahanMentah KdBarang,NamaBahanMentah NamaBarang, " & _
                         " HargaDisc `Harga`,SOD.Qty,SOD.Disc,Statusbarang,MS.NamaSales,MS.Alamat,MS.NoTelp NoTelpSales,MS.NoHP NoHPSales,  " & _
-                        " MT.NamaToko,MT.AlamatToko,MT.Daerah,MT.NoTelp NoTelpCustomer,Mt.NoHP NoHPCustomer " & _
+                        " MT.NamaToko,MT.AlamatToko,MT.Daerah,MT.NoTelp NoTelpCustomer,Mt.NoHP NoHPCustomer, " & _
+                        " SO.Disc DiscSO,SO.GrandTotal GrandtotalSO " & _
                         " from TrSalesOrder SO " & _
                         " join trSalesOrderdetail SOD on SOD.KdSO = so.kdso  " & _
                         " Join MsSales MS On MS.KdSales = SO.KdSales  " & _
@@ -284,8 +287,9 @@ Public Class FormSO
                         " where so.KdSo='" & idPrint & "'"
                
             End If
-            dropview("viewCetakTrSO" & kdKaryawan)
-            createview(query, "viewCetakTrSO" & kdKaryawan)
+
+            dropview("viewCetakTrSOUS11010001") ' & kdKaryawan)
+            createview(query, "viewCetakTrSOUS11010001") ' & kdKaryawan)
             flagLaporan = "so"
 
             open_subpage("CRPrintTransaksi")

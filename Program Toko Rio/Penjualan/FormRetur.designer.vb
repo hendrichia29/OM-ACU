@@ -42,6 +42,7 @@ Partial Class FormRetur
         Me.btnExit = New System.Windows.Forms.ToolStripButton
         Me.Retur_tab = New System.Windows.Forms.TabControl
         Me.retur_main = New System.Windows.Forms.TabPage
+        Me.TextBox1 = New System.Windows.Forms.TextBox
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.main_tool_strip.SuspendLayout()
@@ -64,6 +65,7 @@ Partial Class FormRetur
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.btnCari)
         Me.GroupBox1.Controls.Add(Me.lblSeperator)
         Me.GroupBox1.Controls.Add(Me.dtpTo)
@@ -156,7 +158,7 @@ Partial Class FormRetur
         Me.main_tool_strip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnAdd, Me.ToolStripSeparator1, Me.btnUpdate, Me.ToolStripSeparator2, Me.btnDelete, Me.ToolStripSeparator4, Me.ToolStripButton1, Me.ToolStripSeparator3, Me.btnExit})
         Me.main_tool_strip.Location = New System.Drawing.Point(0, 0)
         Me.main_tool_strip.Name = "main_tool_strip"
-        Me.main_tool_strip.Size = New System.Drawing.Size(912, 54)
+        Me.main_tool_strip.Size = New System.Drawing.Size(912, 52)
         Me.main_tool_strip.TabIndex = 481
         Me.main_tool_strip.Text = "Tool Strip"
         '
@@ -165,7 +167,7 @@ Partial Class FormRetur
         Me.btnAdd.Image = CType(resources.GetObject("btnAdd.Image"), System.Drawing.Image)
         Me.btnAdd.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(55, 51)
+        Me.btnAdd.Size = New System.Drawing.Size(49, 49)
         Me.btnAdd.Text = "Tambah"
         Me.btnAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -173,14 +175,14 @@ Partial Class FormRetur
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 52)
         '
         'btnUpdate
         '
         Me.btnUpdate.Image = CType(resources.GetObject("btnUpdate.Image"), System.Drawing.Image)
         Me.btnUpdate.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(39, 51)
+        Me.btnUpdate.Size = New System.Drawing.Size(36, 49)
         Me.btnUpdate.Text = "Ubah"
         Me.btnUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnUpdate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -188,14 +190,14 @@ Partial Class FormRetur
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 52)
         '
         'btnDelete
         '
         Me.btnDelete.Image = CType(resources.GetObject("btnDelete.Image"), System.Drawing.Image)
         Me.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(45, 51)
+        Me.btnDelete.Size = New System.Drawing.Size(41, 49)
         Me.btnDelete.Text = "Hapus"
         Me.btnDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -203,14 +205,14 @@ Partial Class FormRetur
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 52)
         '
         'ToolStripButton1
         '
         Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(36, 51)
+        Me.ToolStripButton1.Size = New System.Drawing.Size(36, 49)
         Me.ToolStripButton1.Text = "Print"
         Me.ToolStripButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -218,14 +220,14 @@ Partial Class FormRetur
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 52)
         '
         'btnExit
         '
         Me.btnExit.Image = CType(resources.GetObject("btnExit.Image"), System.Drawing.Image)
         Me.btnExit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(44, 51)
+        Me.btnExit.Size = New System.Drawing.Size(41, 49)
         Me.btnExit.Text = "Keluar"
         Me.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -252,6 +254,14 @@ Partial Class FormRetur
         Me.retur_main.TabIndex = 0
         Me.retur_main.Text = "Retur"
         Me.retur_main.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(515, 5)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 357
+        Me.TextBox1.Visible = False
         '
         'FormRetur
         '
@@ -300,5 +310,6 @@ Partial Class FormRetur
     Friend WithEvents retur_main As System.Windows.Forms.TabPage
     Friend WithEvents ToolStripSeparator4 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents ToolStripButton1 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
 
 End Class

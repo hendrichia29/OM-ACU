@@ -36,11 +36,11 @@ Partial Class FormSO
         Me.btnUpdate = New System.Windows.Forms.ToolStripButton
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton
+        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator
         Me.btnBuka = New System.Windows.Forms.ToolStripButton
         Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator
         Me.btnDelete = New System.Windows.Forms.ToolStripButton
         Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator
         Me.btnExit = New System.Windows.Forms.ToolStripButton
         Me.sales_order_tab = New System.Windows.Forms.TabControl
         Me.sales_order_main = New System.Windows.Forms.TabPage
@@ -158,7 +158,7 @@ Partial Class FormSO
         Me.main_tool_strip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnAdd, Me.ToolStripSeparator1, Me.btnUpdate, Me.ToolStripSeparator2, Me.ToolStripButton1, Me.ToolStripSeparator3, Me.btnBuka, Me.ToolStripSeparator5, Me.btnDelete, Me.ToolStripSeparator4, Me.btnExit})
         Me.main_tool_strip.Location = New System.Drawing.Point(0, 0)
         Me.main_tool_strip.Name = "main_tool_strip"
-        Me.main_tool_strip.Size = New System.Drawing.Size(912, 54)
+        Me.main_tool_strip.Size = New System.Drawing.Size(912, 52)
         Me.main_tool_strip.TabIndex = 481
         Me.main_tool_strip.Text = "Tool Strip"
         '
@@ -167,7 +167,7 @@ Partial Class FormSO
         Me.btnAdd.Image = CType(resources.GetObject("btnAdd.Image"), System.Drawing.Image)
         Me.btnAdd.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(55, 51)
+        Me.btnAdd.Size = New System.Drawing.Size(49, 49)
         Me.btnAdd.Text = "Tambah"
         Me.btnAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -175,14 +175,14 @@ Partial Class FormSO
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 52)
         '
         'btnUpdate
         '
         Me.btnUpdate.Image = CType(resources.GetObject("btnUpdate.Image"), System.Drawing.Image)
         Me.btnUpdate.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(39, 51)
+        Me.btnUpdate.Size = New System.Drawing.Size(36, 49)
         Me.btnUpdate.Text = "Ubah"
         Me.btnUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnUpdate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -190,24 +190,29 @@ Partial Class FormSO
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 52)
         '
         'ToolStripButton1
         '
         Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(36, 51)
+        Me.ToolStripButton1.Size = New System.Drawing.Size(36, 49)
         Me.ToolStripButton1.Text = "Print"
         Me.ToolStripButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripSeparator3
+        '
+        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 52)
         '
         'btnBuka
         '
         Me.btnBuka.Image = CType(resources.GetObject("btnBuka.Image"), System.Drawing.Image)
         Me.btnBuka.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnBuka.Name = "btnBuka"
-        Me.btnBuka.Size = New System.Drawing.Size(92, 51)
+        Me.btnBuka.Size = New System.Drawing.Size(81, 49)
         Me.btnBuka.Text = "Buka Dokumen"
         Me.btnBuka.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnBuka.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -216,7 +221,7 @@ Partial Class FormSO
         'ToolStripSeparator5
         '
         Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
-        Me.ToolStripSeparator5.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator5.Size = New System.Drawing.Size(6, 52)
         Me.ToolStripSeparator5.Visible = False
         '
         'btnDelete
@@ -224,7 +229,7 @@ Partial Class FormSO
         Me.btnDelete.Image = CType(resources.GetObject("btnDelete.Image"), System.Drawing.Image)
         Me.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(45, 51)
+        Me.btnDelete.Size = New System.Drawing.Size(41, 49)
         Me.btnDelete.Text = "Hapus"
         Me.btnDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -232,19 +237,14 @@ Partial Class FormSO
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 54)
-        '
-        'ToolStripSeparator3
-        '
-        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 52)
         '
         'btnExit
         '
         Me.btnExit.Image = CType(resources.GetObject("btnExit.Image"), System.Drawing.Image)
         Me.btnExit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(44, 51)
+        Me.btnExit.Size = New System.Drawing.Size(41, 49)
         Me.btnExit.Text = "Keluar"
         Me.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText

@@ -126,7 +126,9 @@ Public Class FormMain
     End Sub
 
     Private Sub PenjualanToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PenjualanToolStripMenuItem.Click
-        open_page("FormLapPenjualan")
+        'open_page("FormLapPenjualan")
+        'open_sub_page("FormLapPenjualan")
+        open_subpage("FormLapPenjualanFaktur")
     End Sub
 
    

@@ -34,7 +34,7 @@ Public Class CRLaporan
             Me.Text = "Laporan Sales Order periode " & tglMulai & "-" & tglAkhir
             rp.PrintOptions.PaperSize = CrystalDecisions.Shared.PaperSize.PaperA4
         ElseIf flagLaporan = "lap_jual" Then
-            rp = New CrystalReportLapPenjualan
+            rp = New CrystalReportLapPenjualanFk
             rp.SetParameterValue("tg1", CDate(tglMulai))
             rp.SetParameterValue("tg2", CDate(tglAkhir))
             Me.Text = "Laporan Pennjualan periode " & tglMulai & "-" & tglAkhir

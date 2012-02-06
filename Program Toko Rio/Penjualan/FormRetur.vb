@@ -36,11 +36,12 @@ Public Class FormRetur
     Private Sub viewAllData(ByVal cr As String, ByVal opt As String)
         sql = " select KdRetur 'No. Retur',DATE_FORMAT(TanggalRetur,'%d %M %Y') Tanggal, " & _
               " retur.KdFaktur 'No. Faktur', NamaLengkap 'Nama User', NamaSales 'Nama Sales', " & _
-              " NamaToko 'Nama Toko', retur.Grandtotal, " & _
+              " NamaToko 'Nama Toko',FORMAT(retur.Jumlah,0) `Grandtotal Sblm Disc`,retur.Disc `Diskon(%)`," & _
+              " FORMAT(retur.Grandtotal,0) Grandtotal, " & _
               " CASE " & _
               "     WHEN StatusRetur = 0 THEN 'New' " & _
               "     WHEN StatusRetur = 1 THEN 'Confirm' " & _
-              " End 'Status Retur' " & _
+              " End 'Status Retur',Note " & _
               " from  " & tab & " retur " & _
               " Join mssales ms On ms.kdsales = retur.kdsales " & _
               " Join mstoko mt On mt.kdtoko = retur.kdtoko " & _
@@ -93,7 +94,8 @@ Public Class FormRetur
         DataGridView1.Columns(3).Width = 100
         DataGridView1.Columns(4).Width = 100
         DataGridView1.Columns(5).Width = 100
-        DataGridView1.Columns(6).Width = 100
+        DataGridView1.Columns(6).Width = 150
+
     End Sub
 
     Function visibleDate()
@@ -210,7 +212,8 @@ Public Class FormRetur
             If jenisRetur = "klem" Then
                 query = "select retur.KdRetur ,TanggalRetur,retur.KdSO , NamaSales ,  " & _
                " NamaToko, retur.Grandtotal, mp.KDBarang, NamaBarang, harga, qty, rd.disc,HargaDisc,  " & _
-               " retur.KdFaktur,rd.StatusBarang from  trretur  retur " & _
+               " retur.KdFaktur,rd.StatusBarang,retur.Disc DiscRetur  " & _
+               " from  trretur  retur " & _
                " join trreturdetail rd on rd.kdretur = retur.kdretur " & _
                " join msbarang mp on mp.kdbarang = rd.kdbarang " & _
                " Join mssales ms On ms.kdsales = retur.kdsales   " & _
@@ -220,7 +223,8 @@ Public Class FormRetur
             Else
                 query = "select retur.KdRetur ,TanggalRetur,retur.KdSO , NamaSales ,  " & _
               " NamaToko, retur.Grandtotal,mp.KdBahanmentah  KDBarang,NamaBahanMentah NamaBarang, harga, qty, rd.disc,HargaDisc,  " & _
-              " retur.KdFaktur,rd.StatusBarang from  trretur  retur " & _
+              " retur.KdFaktur,rd.StatusBarang,retur.Disc DiscRetur " & _
+              " from  trretur  retur " & _
               " join trreturdetail rd on rd.kdretur = retur.kdretur " & _
               " join msbahanmentah mp on mp.kdbahanmentah = rd.kdbarang  " & _
               " Join mssales ms On ms.kdsales = retur.kdsales   " & _
@@ -229,8 +233,9 @@ Public Class FormRetur
               " where  retur.kdretur='" & idPrint & "' "
             End If
             '" where StatusRetur = 1 and retur.kdretur='" & idPrint & "' "
-            dropviewM("viewCetakTrReturJual" & kdKaryawan)
-            createviewM(query, "viewCetakTrReturJual" & kdKaryawan)
+            TextBox1.Text = query
+            dropviewM("viewCetakTrReturJualUS11010001") ' & kdKaryawan)
+            createviewM(query, "viewCetakTrReturJualUS11010001") ' & kdKaryawan)
             flagLaporan = "retur_jual"
             open_subpage("CRPrintTransaksi")
         Else

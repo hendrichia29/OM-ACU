@@ -1,6 +1,6 @@
 Imports System.Data.SqlClient
 
-Public Class FormLapPenjualan
+Public Class FormLapPenjualanFaktur
     Dim jumData As Integer
     Dim query As String
     Dim queryJumlah As String
@@ -37,39 +37,31 @@ Public Class FormLapPenjualan
         Dim reader As SqlDataReader = Nothing
         Dim namaview As String = ""
         jenisReport = ""
-        namaview = "viewCetakLapPenjualan"
+        namaview = "viewCetakLapPenjualanFk"
         Dim queryFrom As String = ""
         Dim query2 As String = ""
+        Dim jenisFaktur = ""
         If RadioButton1.Checked = True Then
-            query = " select hr.KdFaktur `No Faktur`,DATE_FORMAT(TanggalFaktur,'%d-%m-%Y') `Tgl Faktur`,hr.KdSO `No Pemesanan`,DATE_FORMAT(TanggalSO,'%d-%m-%Y') `Tgl Pemesanan`,NamaToko,mp.KdBarang `Kode Barang`,NamaBarang,Merk " & _
-            ", Qty,FORMAT(Harga,0) Harga,dr.Disc `Disc (%)`, format( sum( qty*Hargadisc),0)  `Total`  "
-            query2 = " select hr.KdFaktur `No Faktur`,DATE_FORMAT(TanggalFaktur,'%d-%m-%Y') `Tgl Faktur`,hr.KdSO `No Pemesanan`,DATE_FORMAT(TanggalSO,'%d-%m-%Y') `Tgl Pemesanan`,NamaToko,mp.KdBarang `Kode Barang`,NamaBarang,Merk " & _
-                    ", Qty,HargaDisc Harga,dr.Disc `Disc (%)`, sum( qty*Hargadisc)  `Total`  "
-            queryFrom += "  from    " & _
-            "  trfaktur hr join mstoko c on c.kdtoko = hr.kdtoko join trfakturdetail dr on dr.KdFaktur=hr.KdFaktur join Msbarang mp on mp.KDBarang=dr.KDBarang  " & _
-            "  Join MsMerk On MsMerk.kdMerk = mp.kdMerk  " & _
-            "  Join trsalesorder so On so.kdSo = hr.KdSO  "
-            queryFrom += "  where  DATE_FORMAT(TanggalFaktur,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(TanggalFaktur,'%Y-%m-%d') <='" & tg2 & "'"
-            queryFrom += "  and StatusFaktur <> 0  AND jenis_faktur='klem' "
-            queryFrom += "  group by hr.KdFaktur,`Tgl Faktur`,hr.KdSO,TanggalSO,NamaToko,dr.KdBarang,NamaBarang,Merk,Qty,Harga,dr.Disc  "
-
-            query += queryFrom
-            query2 += queryFrom
-        Else
-            query = " select hr.KdFaktur `No Faktur`,DATE_FORMAT(TanggalFaktur,'%d-%m-%Y') `Tgl Faktur`,hr.KdSO `No Pemesanan`,DATE_FORMAT(TanggalSO,'%d-%m-%Y') `Tgl Pemesanan`,NamaToko,mp.KdBahanMentah `Kode Barang`,NamaBahanMentah NamaBarang " & _
-          ", Qty,FORMAT(Harga,0) Harga,dr.Disc `Disc (%)`, format( sum( qty*Hargadisc),0)  `Total`  "
-            query2 = " select hr.KdFaktur `No Faktur`,DATE_FORMAT(TanggalFaktur,'%d-%m-%Y') `Tgl Faktur`,hr.KdSO `No Pemesanan`,DATE_FORMAT(TanggalSO,'%d-%m-%Y') `Tgl Pemesanan`,NamaToko,mp.KdBahanMentah `Kode Barang`,NamaBahanMentah NamaBarang " & _
-                    ", Qty,HargaDisc Harga,dr.Disc `Disc (%)`, sum( qty*Hargadisc)  `Total`  "
-            queryFrom += "  from    " & _
-            "  trfaktur hr join mstoko c on c.kdtoko = hr.kdtoko join trfakturdetail dr on dr.KdFaktur=hr.KdFaktur join MsbahanMentah mp on mp.KDBaHanMentah=dr.KDBarang  " & _
-            "  Join trsalesorder so On so.kdSo = hr.KdSO  "
-            queryFrom += "  where  DATE_FORMAT(TanggalFaktur,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(TanggalFaktur,'%Y-%m-%d') <='" & tg2 & "'"
-            queryFrom += "  and StatusFaktur <> 0  AND jenis_faktur='paku' "
-            queryFrom += "  group by hr.KdFaktur,`Tgl Faktur`,hr.KdSO,TanggalSO,NamaToko,dr.KdBarang,NamaBarang,Qty,Harga,dr.Disc  "
-
-            query += queryFrom
-            query2 += queryFrom
+            jenisFaktur = "klem"
+        ElseIf RadioButton2.Checked = True Then
+            jenisFaktur = "paku"
         End If
+        query = " select hr.KdFaktur `No Faktur`,DATE_FORMAT(TanggalFaktur,'%d-%m-%Y') `Tgl Faktur`,hr.KdSO `No Pemesanan`,DATE_FORMAT(TanggalSO,'%d-%m-%Y') `Tgl Pemesanan`,NamaToko " & _
+        ", FORMAT(hr.Jumlah,0) `Grandtotal Sblm Disc`,hr.Disc `Disc (%)`, format(hr.Grandtotal,0)  `Grandtotal`  " & _
+        ",DATE_FORMAT(TanggalJT,'%d-%m-%Y') `Tgl Jatuh Tempo` "
+        query2 = " select hr.KdFaktur `No Faktur`,DATE_FORMAT(TanggalFaktur,'%d-%m-%Y') `Tgl Faktur`,hr.KdSO `No Pemesanan`,DATE_FORMAT(TanggalSO,'%d-%m-%Y') `Tgl Pemesanan`,NamaToko " & _
+        ",hr.Jumlah `Grandtotal Sblm Disc`,hr.Disc `Disc (%)`, hr.Grandtotal  `Grandtotal`  " & _
+        ",DATE_FORMAT(TanggalJT,'%d-%m-%Y') `Tgl Jatuh Tempo` "
+        queryFrom += "  from    " & _
+        "  trfaktur hr join mstoko c on c.kdtoko = hr.kdtoko " & _
+        "  Join trsalesorder so On so.kdSo = hr.KdSO  "
+        queryFrom += "  where  DATE_FORMAT(TanggalFaktur,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(TanggalFaktur,'%Y-%m-%d') <='" & tg2 & "'"
+        queryFrom += "  and StatusFaktur <> 0  AND jenis_faktur='" & jenisFaktur & "' "
+        'queryFrom += "  group by hr.KdFaktur,`Tgl Faktur`,hr.KdSO,TanggalSO,NamaToko,dr.KdBarang,NamaBarang,Merk,Qty,Harga,dr.Disc  "
+
+        query += queryFrom
+        query2 += queryFrom
+
         TextBox1.Text = query
         Dim totalJual As Double = 0
         Dim jumlahHasil As Double = 0
@@ -78,8 +70,8 @@ Public Class FormLapPenjualan
         Try
             tglMulai = tg1
             tglAkhir = tg2
-            dropview(namaview & kdKaryawan)
-            createview(query2, namaview & kdKaryawan)
+            dropview(namaview & "us11010001")
+            createview(query2, namaview & "us11010001")
             DataGridView1.DataSource = execute_datatable(query)
             jumlahHasil = DataGridView1.RowCount
             If jumlahHasil = 0 Then
@@ -89,7 +81,7 @@ Public Class FormLapPenjualan
             Dim totalValue As Double = 0
             Dim reader2 = execute_reader(query)
             Do While reader2.Read
-                totalValue += reader2("Total")
+                totalValue += reader2("Grandtotal")
             Loop
             reader2.Close()
             lblTotal.Text = FormatNumber(totalValue, 0)
@@ -99,21 +91,23 @@ Public Class FormLapPenjualan
             MsgBox(ex.ToString, MsgBoxStyle.Critical)
         End Try
     End Sub
-    
-
-    Private Sub FormLapPenjualan_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+    Private Sub FormLapPenjualanFaktur_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         status = 0
         Button3.Enabled = False
+
         txtTgl.Value = Convert.ToDateTime("01/" & Today.Month & "/" & Today.Year)
         txtTgl2.Value = Convert.ToDateTime(Today.Date)
+
+
         status = 2
+
         RadioButton1.Checked = True
         Label2.Visible = True
     End Sub
 
     Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button9.Click
         initGrid("", "")
-  
+
     End Sub
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
@@ -127,14 +121,9 @@ Public Class FormLapPenjualan
 
     Private Sub view()
         Dim key As String = ""
-
-
         Dim key2 As String = ""
-
-
         If RadioButton1.Checked = False And RadioButton2.Checked = False Then
             MsgBox("Jenis penjualan harus dipilih", MsgBoxStyle.Information)
-
         Else
             initGrid(key, key2)
         End If
@@ -151,6 +140,4 @@ Public Class FormLapPenjualan
         ' key2 = cmbCari2.Text
 
     End Sub
-
-  
 End Class

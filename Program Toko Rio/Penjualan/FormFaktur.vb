@@ -37,13 +37,16 @@ Public Class FormFaktur
     Private Sub viewAllData(ByVal cr As String, ByVal opt As String)
         sql = " select KdFaktur 'No. Faktur',DATE_FORMAT(Tanggalfaktur,'%d %M %Y') Tanggal, " & _
               " faktur.KdSO 'No. SO',NamaLengkap 'Nama User', NamaSales 'Nama Sales', " & _
-              " NamaToko 'Nama Toko', faktur.Grandtotal, " & _
+              " NamaToko 'Nama Toko',FORMAT(faktur.Jumlah,0) `Grandtotal Sblm Disc`,faktur.Disc `Diskon(%)`," & _
+              " FORMAT(faktur.Grandtotal,0) `Grandtotal`, " & _
               " CASE WHEN StatusFaktur = 0 THEN 'New' WHEN StatusFaktur = 1 THEN 'Confirm' " & _
               " WHEN StatusFaktur = 2 THEN 'Retur Sebagian' " & _
               " WHEN StatusFaktur = 3 THEN 'Retur Semua' End 'Status Faktur', " & _
               " CASE WHEN StatusPayment = 0 THEN 'Belum Lunas' " & _
               " WHEN StatusPayment = 1 THEN 'Lunas' " & _
-              " WHEN StatusPayment = 2 THEN 'Bayar Setengah' End 'Pembayaran' " & _
+              " WHEN StatusPayment = 2 THEN 'Bayar Setengah' End 'Pembayaran', " & _
+              " KdSJ `No Surat Jln`, " & _
+              " DATE_FORMAT(TanggalSJ,'%d %M %Y') `Tgl Surat Jln` " & _
               " from  " & tab & " faktur " & _
               " Join trsalesorder so On so.kdso = faktur.kdso " & _
               " Join mssales ms On ms.kdsales = so.kdsales " & _
@@ -101,7 +104,7 @@ Public Class FormFaktur
         DataGridView1.Columns(3).Width = 100
         DataGridView1.Columns(4).Width = 100
         DataGridView1.Columns(5).Width = 100
-        DataGridView1.Columns(6).Width = 100
+        DataGridView1.Columns(6).Width = 150
     End Sub
 
     Function visibleDate()
@@ -230,24 +233,26 @@ Public Class FormFaktur
 
         Dim query As String
         If jenisFaktur = "klem" Then
-            query = "select so.KdSo,TanggalSO,NamaToko,ho.KdFaktur `No Faktur`,TanggalFaktur `Tgl Faktur`,mp.KdBarang,NamaBarang,harga,qty,do.disc,HargaDisc " & _
+            query = "select so.KdSo,TanggalSO,NamaToko,ho.KdFaktur `No Faktur`,TanggalFaktur `Tgl Faktur`,mp.KdBarang,NamaBarang,harga,qty,do.disc,HargaDisc, " & _
+              "  ho.Disc DiscFaktur,ho.GrandTotal" & _
               "  from trsalesorder so join  trfaktur ho on so.kdso=ho.KdSO" & _
               "  join trfakturdetail do  on ho.KdFaktur=do.KDFaktur join Msbarang mp on mp.KDBarang=do.KDBarang" & _
               "  join mstoko c on c.kdtoko = ho.kdtoko   where ho.KDFaktur='" & idPrint & "'"
             'TextBox1.Text = query
         Else
-            query = "select so.KdSo,TanggalSO,NamaToko,ho.KdFaktur `No Faktur`,TanggalFaktur `Tgl Faktur`,mp.KdBahanMentah KdBarang ,NamaBahanMentah NamaBarang,harga,qty,do.disc,HargaDisc  " & _
+            query = "select so.KdSo,TanggalSO,NamaToko,ho.KdFaktur `No Faktur`,TanggalFaktur `Tgl Faktur`,mp.KdBahanMentah KdBarang ,NamaBahanMentah NamaBarang,harga,qty,do.disc,HargaDisc,  " & _
+              "  ho.Disc DiscFaktur,ho.GrandTotal" & _
               "  from trsalesorder so join  trfaktur ho on so.kdso=ho.KdSO " & _
               "  join trfakturdetail do  on ho.KdFaktur=do.KDFaktur join Msbahanmentah mp on mp.KDBahanmentah=do.KDBarang " & _
               "  join mstoko c on c.kdtoko = ho.kdtoko  where ho.KDFaktur='" & idPrint & "'"
         End If
         If type = "faktur" Then
-            dropviewM("viewCetakTrFaktur" & kdKaryawan)
-            createviewM(query, "viewCetakTrFaktur" & kdKaryawan)
+            dropviewM("viewCetakTrFakturUS11010001") ' & kdKaryawan)
+            createviewM(query, "viewCetakTrFakturUS11010001") ' & kdKaryawan)
             flagLaporan = "faktur"
         Else
-            dropviewM("viewCetakTrSuratJalan" & kdKaryawan)
-            createviewM(query, "viewCetakTrSuratJalan" & kdKaryawan)
+            dropviewM("viewCetakTrSuratJalanUS11010001") ' & kdKaryawan)
+            createviewM(query, "viewCetakTrSuratJalanUS11010001") ' & kdKaryawan)
             flagLaporan = "sj"
         End If
         open_subpage("CRPrintTransaksi")

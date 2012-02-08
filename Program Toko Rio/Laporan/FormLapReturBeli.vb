@@ -38,6 +38,12 @@ Public Class FormLapReturBeli
         Dim reader As SqlDataReader = Nothing
         Dim queryFrom As String = ""
         Dim query2 As String = ""
+        Dim jenisPB As String = ""
+        If RadioButton1.Checked = True Then
+            jenisPB = "klem"
+        Else
+            jenisPB = "paku"
+        End If
 
         'query = " select c.kdcustomer, c.NamaToko,mp.KdBarang,Merk,Warna,Artikel,Jenis,sum(do.Qty) - isnull(tr.total,0) [Qty Total],do.Harga,do.Harga*(sum(do.Qty) - isnull(tr.total,0)) Subtotal  "
         query = " select DATE_FORMAT(TanggalRetur,'%d-%m-%Y') `Tgl Retur`,c.Nama `Supplier`,dr.KdBahanMentah,NamaBahanMentah " & _
@@ -49,7 +55,7 @@ Public Class FormLapReturBeli
         "  join trheaderreturbeli hr on hr.kdpb = pb.no_pb join trdetailreturbeli dr on dr.KdRetur=hr.KdRetur join Msbahanmentah mp on mp.KDBahanMentah=dr.KDBahanMentah  " & _
         "   "
         queryFrom += "  where  DATE_FORMAT(TanggalRetur,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(TanggalRetur,'%Y-%m-%d') <='" & tg2 & "'"
-        queryFrom += "  and StatusRetur <> 0   "
+        queryFrom += "  and StatusRetur <> 0  AND jenis_retur='" & jenisPB & "' "
         queryFrom += "  group by `Tgl Retur`,c.Nama,dr.KdBahanMentah,NamaBahanMentah,Qty,Harga "
 
         query += queryFrom
@@ -63,8 +69,8 @@ Public Class FormLapReturBeli
         Try
             tglMulai = tg1
             tglAkhir = tg2
-            dropview("viewCetakLapRB" & kdKaryawan)
-            createview(query2, "viewCetakLapRB" & kdKaryawan)
+            dropview("viewCetakLapRBUS11010001") ' & kdKaryawan)
+            createview(query2, "viewCetakLapRBUS11010001") '  & kdKaryawan)
             DataGridView1.DataSource = execute_datatable(query)
             jumlahHasil = DataGridView1.RowCount
             If jumlahHasil = 0 Then
@@ -88,6 +94,7 @@ Public Class FormLapReturBeli
         Button3.Enabled = False
         txtTgl.Value = Convert.ToDateTime("01/" & Today.Month & "/" & Today.Year)
         txtTgl2.Value = Convert.ToDateTime(Today.Date)
+        RadioButton1.Checked = True
     End Sub
     Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button9.Click
         initGrid("", "")

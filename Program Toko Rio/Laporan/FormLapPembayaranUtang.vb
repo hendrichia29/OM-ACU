@@ -62,8 +62,8 @@ Public Class FormLapPembayaranUtang
         Try
             tglMulai = tg1
             tglAkhir = tg2
-            dropview("viewCetakLapPembayaranUtang" & kdKaryawan)
-            createview(query2, "viewCetakLapPembayaranUtang" & kdKaryawan)
+            dropview("viewCetakLapPembayaranUtangUS11010001") '"  & kdKaryawan)
+            createview(query2, "viewCetakLapPembayaranUtangUS11010001") '  & kdKaryawan)
             DataGridView1.DataSource = execute_datatable(query)
             jumlahHasil = DataGridView1.RowCount
             If jumlahHasil = 0 Then

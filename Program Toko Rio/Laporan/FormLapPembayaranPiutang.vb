@@ -53,8 +53,8 @@ Public Class FormLapPembayaranPiutang
         Try
             tglMulai = tg1
             tglAkhir = tg2
-            dropview("viewCetakLapPembayaranPiutang" & kdKaryawan)
-            createview(query2, "viewCetakLapPembayaranPiutang" & kdKaryawan)
+            dropview("viewCetakLapPembayaranPiutangUS11010001") '  & kdKaryawan)
+            createview(query2, "viewCetakLapPembayaranPiutangUS11010001") '  & kdKaryawan)
             DataGridView1.DataSource = execute_datatable(query)
             setGrid()
             jumlahHasil = DataGridView1.RowCount

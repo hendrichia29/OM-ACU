@@ -71,8 +71,8 @@ Public Class FormLapLabaRugi
         Try
             tglMulai = tg1
             tglAkhir = tg2
-            dropview("viewCetakLapLR" & kdKaryawan)
-            createview(query2, "viewCetakLapLR" & kdKaryawan)
+            dropview("viewCetakLapLRUS11010001") '"  & kdKaryawan)
+            createview(query2, "viewCetakLapLRUS11010001") '  & kdKaryawan)
             DataGridView1.DataSource = execute_datatable(query)
             jumlahHasil = DataGridView1.RowCount
             If jumlahHasil = 0 Then

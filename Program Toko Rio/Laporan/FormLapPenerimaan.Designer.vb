@@ -33,12 +33,18 @@ Partial Class FormLapPenerimaan
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
         Me.Label4 = New System.Windows.Forms.Label
         Me.lblTotal = New System.Windows.Forms.Label
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton
+        Me.Label2 = New System.Windows.Forms.Label
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.RadioButton2)
+        Me.GroupBox1.Controls.Add(Me.RadioButton1)
+        Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Button3)
         Me.GroupBox1.Controls.Add(Me.Button9)
@@ -57,7 +63,7 @@ Partial Class FormLapPenerimaan
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(162, 58)
+        Me.TextBox1.Location = New System.Drawing.Point(421, 58)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 500
@@ -174,6 +180,40 @@ Partial Class FormLapPenerimaan
         Me.lblTotal.TabIndex = 484
         Me.lblTotal.Text = "0"
         '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton2.Location = New System.Drawing.Point(288, 58)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(57, 20)
+        Me.RadioButton2.TabIndex = 505
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "Paku"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton1.Location = New System.Drawing.Point(158, 59)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(85, 20)
+        Me.RadioButton1.TabIndex = 504
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Klem Jadi"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(12, 58)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(116, 16)
+        Me.Label2.TabIndex = 503
+        Me.Label2.Text = "Jenis Penerimaan"
+        '
         'FormLapPenerimaan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -207,4 +247,7 @@ Partial Class FormLapPenerimaan
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents lblTotal As System.Windows.Forms.Label
+    Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 End Class

@@ -36,23 +36,28 @@ Public Class FormLapPenerimaan
         tg1 = String.Format("{0:yyyy-MM-dd}", txtTgl.Value)
         tg2 = String.Format("{0:yyyy-MM-dd}", txtTgl2.Value)
         Dim reader As SqlDataReader = Nothing
+        Dim jenisPB As String = ""
+        If RadioButton1.Checked = True Then
+            jenisPB = "klem"
+        Else
+            jenisPB = "paku"
+        End If
 
-        query = "  select ho.no_po `No PO`,ho.no_Pb `No. Penerimaan`,DATE_FORMAT(Tanggal_TerimaBarang,'%d-%m-%Y') `Tgl Terima Barang`,c.Nama `Supplier`,mp.KdBahanMentah `Part No.`,NamaBahanMentah NamaBarang " & _
-        " , Qty,FORMAT((harga - (harga*do.disc/100)),0) Harga, FORMAT(sum(Qty*(harga - (harga*do.disc/100))) - ifnull(`Total Retur`,0) ,0) `Total`   " & _
+        query = "  select ho.no_Pb `No. Penerimaan`,DATE_FORMAT(Tanggal_TerimaBarang,'%d-%m-%Y') `Tgl Terima Barang`,c.Nama `Supplier`,mp.KdBahanMentah `Part No.`,NamaBahanMentah NamaBarang " & _
+        " , Qty,FORMAT(harga,0) Harga, FORMAT(sum(Qty*harga),0) `Total`   " & _
         " , CASE WHEN StatusPaid = 1 THEN 'Lunas'  " & _
         " WHEN StatusPaid = 0 THEN 'Belum Lunas' End 'Pembayaran' " & _
-        "  from trheaderpb ho join trdetailpb do  on ho.no_pb=do.no_pb join  MsBahanMentah mp on mp.KdBahanMentah=do.KdBahanMentah " & _
+        " from trheaderpb ho join trdetailpb do  on ho.no_pb=do.no_pb join  MsBahanMentah mp on mp.KdBahanMentah=do.KdBahanMentah " & _
         " join trheaderpo hpo on hpo.no_po=ho.no_po  join mssupplier c on c.kdsupplier = hpo.kdsupplier    " & _
-        "left join( " & _
-        "     select ho.KdPB,ho.kdretur,  IFNULL(sum(qty * (harga - (harga*do.disc/100))),0)  `Total Retur`  " & _
-        "     from trheaderreturbeli ho join trdetailreturbeli do  on ho.Kdretur=do.KDRetur   " & _
-        " where(StatusRetur <> 0) " & _
-        "     group by ho.kdpb,ho.kdretur   " & _
-        " )as ret on ret.kdPB= ho.no_pb  " & _
-        "  where  DATE_FORMAT(Tanggal_TerimaBarang,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(Tanggal_TerimaBarang,'%Y-%m-%d') <='" & tg2 & "' " & _
-        "  and  StatusTerimaBarang <> 0  " & _
-        "  group by ho.no_po,ho.no_Pb,`Tgl Terima Barang`,c.Nama,do.KdBahanMentah,NamaBahanMentah,Qty,Harga  "
-
+        " where  DATE_FORMAT(Tanggal_TerimaBarang,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(Tanggal_TerimaBarang,'%Y-%m-%d') <='" & tg2 & "' " & _
+        " and  StatusTerimaBarang <> 0 and jenis_pb='" & jenisPB & "' " & _
+        " group by ho.no_Pb,`Tgl Terima Barang`,c.Nama,do.KdBahanMentah,NamaBahanMentah,Qty,Harga  "
+        '"left join( " & _
+        '      "     select ho.KdPB,ho.kdretur,  IFNULL(sum(qty * (harga - (harga*do.disc/100))),0)  `Total Retur`  " & _
+        '      "     from trheaderreturbeli ho join trdetailreturbeli do  on ho.Kdretur=do.KDRetur   " & _
+        '      " where(StatusRetur <> 0) " & _
+        '      "     group by ho.kdpb,ho.kdretur   " & _
+        '      " )as ret on ret.kdPB= ho.no_pb  " & _
         sql = query
 
 
@@ -86,7 +91,7 @@ Public Class FormLapPenerimaan
 
         reader21 = execute_reader(sql)
         Do While reader21.Read
-            NO_PO(idAr) = reader21("No PO")
+            NO_PO(idAr) = "1" 'reader21("No PO")
             NO_PB(idAr) = reader21("No. Penerimaan")
             Tgl_PB(idAr) = reader21("Tgl Terima Barang")
             supplier(idAr) = reader21("Supplier")
@@ -145,6 +150,7 @@ Public Class FormLapPenerimaan
         Button3.Enabled = False
         txtTgl.Value = Convert.ToDateTime("01/" & Today.Month & "/" & Today.Year)
         txtTgl2.Value = Convert.ToDateTime(Today.Date)
+        RadioButton1.Checked = True
     End Sub
 
     Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button9.Click

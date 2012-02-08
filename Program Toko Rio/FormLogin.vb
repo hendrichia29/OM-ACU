@@ -64,13 +64,13 @@ Public Class FormLogin
 
 
 
-        Dim sql As String = "update msuser set userid='US11010001' where username='a'"
-        Try
-            execute_update(sql)
+        'Dim sql As String = "update msuser set userid='US11010001' where username='a'"
+        'Try
+        '    execute_update(sql)
 
-        Catch ex As Exception
+        'Catch ex As Exception
 
-        End Try
+        'End Try
     End Sub
     Private Function checkEmpty() As Boolean
         If txtID.Text = "" Then

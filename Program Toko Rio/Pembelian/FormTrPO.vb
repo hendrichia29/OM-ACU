@@ -25,7 +25,7 @@ Public Class FormTrPO
         cmbCari.Items.Clear()
         cmbCari.Items.Add("No. Penerimaan")
         cmbCari.Items.Add("Tanggal Penerimaan")
-        cmbCari.Items.Add("No. PO")
+        'cmbCari.Items.Add("No. PO")
         cmbCari.Items.Add("Nama Supplier")
         cmbCari.Items.Add("Status")
         cmbCari.Items.Add("Status Paid")
@@ -34,8 +34,10 @@ Public Class FormTrPO
 
     Private Sub viewAllData(ByVal cr As String, ByVal opt As String)
         sql = " select PB.No_PB 'No. Penerimaan',DATE_FORMAT(Tanggal_TerimaBarang,'%d %M %Y') Tanggal, " & _
-              " No_PO 'No. PO', MS.Nama 'Nama Supplier' ," & _
-              " PB.GrandTotal `Grand Total`, " & _
+              "  MS.Nama 'Nama Supplier' ," & _
+              " format(PB.Jumlah,0) `Grand Total Sblm Disc`, " & _
+              " Disc `Diskon(%)`," & _
+              " format(PB.GrandTotal,0) `Grand Total`, " & _
               " CASE WHEN StatusTerimaBarang = 0 THEN 'New' WHEN StatusTerimaBarang = 1 THEN 'Confirm' " & _
               " WHEN StatusTerimaBarang = 2 THEN 'Retur Sebagian' " & _
               " WHEN StatusTerimaBarang = 3 THEN 'Retur Semua' " & _
@@ -77,6 +79,7 @@ Public Class FormTrPO
         sql &= " Order By StatusTerimaBarang, no_increment Desc  "
 
         DataGridView1.DataSource = execute_datatable(sql)
+        DataGridView1.Columns("Grand Total Sblm Disc").Width = 150
     End Sub
 
     Private Sub setGrid()
@@ -192,8 +195,8 @@ Public Class FormTrPO
            "  join trdetailpb POD on Pb.no_pb = POD.no_pb" & _
            "  Join Mssupplier MS On MS.KdSupplier = PO.KdSupplier " & _
            "  Join MsBahanMentah MB On MB.KdBahanMentah = POD.kdbahanmentah where PB.no_pb='" & idPrint & "'"
-            dropviewM("viewCetakPB" & kdKaryawan)
-            createviewM(query, "viewCetakPB" & kdKaryawan)
+            dropviewM("viewCetakPBUS11010001") '  & kdKaryawan)
+            createviewM(query, "viewCetakPBUS11010001") ' & kdKaryawan)
             flagLaporan = "pb"
             open_subpage("CRPrintTransaksi")
         Else

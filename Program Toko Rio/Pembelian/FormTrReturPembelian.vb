@@ -36,7 +36,7 @@ Public Class FormTrReturPembelian
     Private Sub viewAllData(ByVal cr As String, ByVal opt As String)
         sql = " select KdRetur 'No. Retur',DATE_FORMAT(TanggalRetur,'%d %M %Y') Tanggal, " & _
               " retur.KdPB 'No. Penerimaan', NamaLengkap 'Nama User', " & _
-              " Nama 'Nama Supplier', retur.Grandtotal, " & _
+              " Nama 'Nama Supplier', FORMAT(retur.Grandtotal,0) Grandtotal, " & _
               " CASE WHEN StatusRetur = 0 THEN 'New' WHEN StatusRetur = 1 THEN 'Confirm' " & _
               " End 'Status Retur' " & _
               " from  " & tab & " retur " & _
@@ -213,7 +213,8 @@ Public Class FormTrReturPembelian
 
             Dim query As String
             query = "select retur.KdRetur ,TanggalRetur,retur.KdPB `No Penerimaan` ,   " & _
-           " Nama, retur.Grandtotal,mp.kdbahanmentah KDBarang,NamaBahanMentah NamaBarang, harga, rd.disc,rd.qty  " & _
+           " Nama, retur.Grandtotal,mp.kdbahanmentah KDBarang,NamaBahanMentah NamaBarang, harga, rd.disc,rd.qty,  " & _
+           " retur.Disc `DiscRetur` " & _
            " from  trheaderreturbeli  retur " & _
            " Join trheaderpb pb On pb.No_PB = retur.kdPB   " & _
            " join trdetailreturbeli rd on rd.kdretur = retur.kdretur " & _
@@ -222,8 +223,8 @@ Public Class FormTrReturPembelian
            " Join msuser mu On mu.userid = retur.userid  " & _
            "where   retur.kdretur='" & idPrint & "' "
             'TextBox1.Text = query
-            dropviewM("viewCetakTrReturBeli" & kdKaryawan)
-            createviewM(query, "viewCetakTrReturBeli" & kdKaryawan)
+            dropviewM("viewCetakTrReturBeliUS11010001") ' & kdKaryawan)
+            createviewM(query, "viewCetakTrReturBeliUS11010001") ' & kdKaryawan)
             flagLaporan = "retur_beli"
             CRPrintTransaksi.Show()
         Else

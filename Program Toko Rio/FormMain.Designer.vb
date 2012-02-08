@@ -522,6 +522,7 @@ Partial Class FormMain
         Me.ToolStripMenuItemPurchaseOrder.Name = "ToolStripMenuItemPurchaseOrder"
         Me.ToolStripMenuItemPurchaseOrder.Size = New System.Drawing.Size(178, 22)
         Me.ToolStripMenuItemPurchaseOrder.Text = "Purchase Order"
+        Me.ToolStripMenuItemPurchaseOrder.Visible = False
         '
         'PenerimaanBarangToolStripMenuItem
         '
@@ -545,8 +546,8 @@ Partial Class FormMain
         'ToolStripMenuItemSalesOrder
         '
         Me.ToolStripMenuItemSalesOrder.Name = "ToolStripMenuItemSalesOrder"
-        Me.ToolStripMenuItemSalesOrder.Size = New System.Drawing.Size(141, 22)
-        Me.ToolStripMenuItemSalesOrder.Text = "Sales Order"
+        Me.ToolStripMenuItemSalesOrder.Size = New System.Drawing.Size(152, 22)
+        Me.ToolStripMenuItemSalesOrder.Text = "Pesan Barang"
         '
         'PenjualanToolStripMenuItem
         '
@@ -624,19 +625,19 @@ Partial Class FormMain
         'ProfileToolStripMenuItem
         '
         Me.ProfileToolStripMenuItem.Name = "ProfileToolStripMenuItem"
-        Me.ProfileToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ProfileToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.ProfileToolStripMenuItem.Text = "Profile"
         '
         'BackupDataToolStripMenuItem
         '
         Me.BackupDataToolStripMenuItem.Name = "BackupDataToolStripMenuItem"
-        Me.BackupDataToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.BackupDataToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.BackupDataToolStripMenuItem.Text = "Backup Data"
         '
         'RegisterToolStripMenuItem
         '
         Me.RegisterToolStripMenuItem.Name = "RegisterToolStripMenuItem"
-        Me.RegisterToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RegisterToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.RegisterToolStripMenuItem.Text = "Register"
         Me.RegisterToolStripMenuItem.Visible = False
         '

@@ -19,6 +19,7 @@ Partial Class FormKomisiSales
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormKomisiSales))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
         Me.TextBox1 = New System.Windows.Forms.TextBox
         Me.Label2 = New System.Windows.Forms.Label
@@ -32,12 +33,14 @@ Partial Class FormKomisiSales
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
         Me.lblTotal = New System.Windows.Forms.Label
         Me.Label4 = New System.Windows.Forms.Label
+        Me.Button3 = New System.Windows.Forms.Button
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Button3)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.cmbSales)
@@ -56,7 +59,7 @@ Partial Class FormKomisiSales
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(698, 45)
+        Me.TextBox1.Location = New System.Drawing.Point(753, 67)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 499
@@ -114,9 +117,9 @@ Partial Class FormKomisiSales
         '
         'btnCari
         '
-        Me.btnCari.Location = New System.Drawing.Point(569, 24)
+        Me.btnCari.Location = New System.Drawing.Point(569, 19)
         Me.btnCari.Name = "btnCari"
-        Me.btnCari.Size = New System.Drawing.Size(75, 48)
+        Me.btnCari.Size = New System.Drawing.Size(66, 57)
         Me.btnCari.TabIndex = 356
         Me.btnCari.Text = "View"
         Me.btnCari.UseVisualStyleBackColor = True
@@ -173,6 +176,16 @@ Partial Class FormKomisiSales
         Me.Label4.TabIndex = 475
         Me.Label4.Text = "Total"
         '
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
+        Me.Button3.Location = New System.Drawing.Point(653, 19)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(57, 57)
+        Me.Button3.TabIndex = 500
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'FormKomisiSales
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -208,4 +221,5 @@ Partial Class FormKomisiSales
     Friend WithEvents lblTotal As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Button3 As System.Windows.Forms.Button
 End Class

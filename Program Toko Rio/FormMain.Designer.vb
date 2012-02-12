@@ -144,7 +144,7 @@ Partial Class FormMain
         btn_dashboard.Name = "btn_dashboard"
         btn_dashboard.Padding = New System.Windows.Forms.Padding(5)
         btn_dashboard.Size = New System.Drawing.Size(76, 59)
-        btn_dashboard.Text = "Bonus Sales"
+        btn_dashboard.Text = "Komisi Sales"
         btn_dashboard.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal
         btn_dashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         AddHandler btn_dashboard.Click, AddressOf Me.btn_dashboard_Click
@@ -546,19 +546,19 @@ Partial Class FormMain
         'ToolStripMenuItemSalesOrder
         '
         Me.ToolStripMenuItemSalesOrder.Name = "ToolStripMenuItemSalesOrder"
-        Me.ToolStripMenuItemSalesOrder.Size = New System.Drawing.Size(152, 22)
+        Me.ToolStripMenuItemSalesOrder.Size = New System.Drawing.Size(151, 22)
         Me.ToolStripMenuItemSalesOrder.Text = "Pesan Barang"
         '
         'PenjualanToolStripMenuItem
         '
         Me.PenjualanToolStripMenuItem.Name = "PenjualanToolStripMenuItem"
-        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.PenjualanToolStripMenuItem.Text = "Faktur"
         '
         'ReturToolStripMenuItem
         '
         Me.ReturToolStripMenuItem.Name = "ReturToolStripMenuItem"
-        Me.ReturToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.ReturToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.ReturToolStripMenuItem.Text = "Retur"
         '
         'ToolStripMenuItem4

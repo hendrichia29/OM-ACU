@@ -40,6 +40,7 @@ Public Class FormMsToko
         txtNoHp.Enabled = status
         txtNoFax.Enabled = status
         txtJatuhTempo.Enabled = status
+        cmbSales.Enabled = status
 
         btnSave.Enabled = status
         btnCancel.Enabled = status
@@ -70,9 +71,16 @@ Public Class FormMsToko
                 txtNoHp.Text = DataGridView1.CurrentRow.Cells(6).Value.ToString
                 txtNoFax.Text = DataGridView1.CurrentRow.Cells(7).Value.ToString
                 txtJatuhTempo.Text = DataGridView1.CurrentRow.Cells(8).Value.ToString
+                cmbSales.Text = DataGridView1.CurrentRow.Cells("KdSales").Value.ToString & "-" & DataGridView1.CurrentRow.Cells("NamaSales").Value.ToString
             Catch ex As Exception
             End Try
         End If
+
+
+
+        
+        
+
     End Sub
 
     Private Sub setCmbCari()
@@ -88,7 +96,7 @@ Public Class FormMsToko
               " AlamatToko 'Alamat Toko', " & _
               " Daerah,mt.NoTelp 'Nomor Telepon', " & _
               " mt.NoHP 'Nomor HP',mt.NoFax 'Nomor Fax', JatuhTempo 'Jatuh Tempo' " & _
-              " from  " & tab & " mt "
+              " ,ms.KdSales,NamaSales from  " & tab & " mt left join mssales ms on ms.kdsales=mt.kdsales "
         If opt <> "" Then
             Dim col As String = ""
             If opt = "Nama Toko" Then
@@ -128,7 +136,22 @@ Public Class FormMsToko
         DataGridView1.Columns("Jatuh Tempo").Width = 100
 
     End Sub
-
+    Public Sub setCmbSales()
+        Dim varT As String = ""
+        cmbSales.Items.Clear()
+        cmbSales.Items.Add("- Pilih Sales -")
+        Dim reader = execute_reader(" Select * from MsSales " & _
+                                    " where NamaSales <>'' " & _
+                                    " order by NamaSales asc")
+        Do While reader.Read
+            cmbSales.Items.Add(reader("KdSales") & " - " & reader("NamaSales"))
+        Loop
+        reader.Close()
+        If cmbSales.Items.Count > 0 Then
+            cmbSales.SelectedIndex = 0
+        End If
+        reader.Close()
+    End Sub
     Private Sub FormMsSupplier_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         tab = " MsToko "
         PK = "  KdToko  "
@@ -138,6 +161,7 @@ Public Class FormMsToko
         setData()
         setGrid()
         setCmbCari()
+        setCmbSales()
     End Sub
 
     Private Sub generateCode()
@@ -227,17 +251,23 @@ Public Class FormMsToko
         ElseIf txtJatuhTempo.Text = "" Then
             msgInfo("Jatuh Tempo harus diisi")
             txtJatuhTempo.Focus()
+        ElseIf cmbSales.Text = "- Pilih Sales -" Then
+            msgInfo("Sales harus dipilih")
+            cmbSales.Focus()
         Else
             Dim areaID = ""
             Dim EkspedisiID = ""
+            Dim salesID = cmbSales.Text.ToString.Split("-")
+
             If status = "add" Then
                 sql = " insert into  " & tab & " ( KdToko, NamaToko, NamaOwner, " & _
-                      " AlamatToko, Daerah, NoTelp, NoHP, NoFax, JatuhTempo ) " & _
+                      " AlamatToko, Daerah, NoTelp, NoHP, NoFax, JatuhTempo,KdSales) " & _
                       " values('" + Trim(txtID.Text) + "','" & Trim(txtNamaToko.Text) & "', " & _
                       " '" & Trim(txtOwner.Text) & "','" & Trim(txtAlamat.Text) & "', " & _
                       " '" & Trim(txtDaerah.Text) & "', " & _
                       " '" & Trim(txtNoTelp.Text) & "','" & Trim(txtNoHp.Text) & "', " & _
-                      " '" & Trim(txtNoFax.Text) & "','" & Trim(txtJatuhTempo.Text) & "')"
+                      " '" & Trim(txtNoFax.Text) & "','" & Trim(txtJatuhTempo.Text) & "', " & _
+                      " '" & salesID(0) & "')"
                 Try
                     execute_update(sql)
                     viewAllData("", "")
@@ -256,7 +286,8 @@ Public Class FormMsToko
                           " NoTelp = '" & Trim(txtNoTelp.Text) & "', " & _
                           " NoHP = '" & Trim(txtNoHp.Text) & "', " & _
                           " NoFax='" & Trim(txtNoFax.Text) & "', " & _
-                          " JatuhTempo = '" & Trim(txtJatuhTempo.Text) & "' " & _
+                          " JatuhTempo = '" & Trim(txtJatuhTempo.Text) & "', " & _
+                          " KdSales='" & salesID(0) & "'" & _
                           " where  " & PK & "='" + txtID.Text + "' "
                     execute_update(sql)
                     viewAllData("", "")

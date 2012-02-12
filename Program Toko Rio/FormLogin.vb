@@ -59,6 +59,17 @@ Public Class FormLogin
     Private Sub FormLogin_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         txtID.Text = "a"
         txtPass.Text = "a"
+
+
+        Dim sql = "alter table mstoko add KdSales varchar(20) default NULL "
+        Try
+            execute_update(sql)
+        Catch ex As Exception
+
+        End Try
+
+
+
         txtID.Select()
         Me.txtID.Focus()
 

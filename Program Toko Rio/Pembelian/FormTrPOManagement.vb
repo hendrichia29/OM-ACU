@@ -410,7 +410,7 @@ Public Class FormTrPOManagement
                 SavePODetail(flag)
                 deleteTabelTemp()
                 trans.Commit()
-                msgInfo("Data berhasil disimpan. Silakan cetak PO")
+                msgInfo("Data berhasil disimpan. Silakan cetak Bukti penerimaan")
                 Me.Close()
             Catch ex As Exception
                 trans.Rollback()

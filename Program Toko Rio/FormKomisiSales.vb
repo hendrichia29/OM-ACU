@@ -125,8 +125,8 @@ Public Class FormKomisiSales
     Private Sub FormKomisiSales_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         txtTgl.Value = Convert.ToDateTime("01/" & Today.Month & "/" & Today.Year)
         txtTgl2.Value = Convert.ToDateTime(Today.Date)
-        initGrid()
         setCmbSales()
+        initGrid()
     End Sub
 
     Private Sub btnCari_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCari.Click

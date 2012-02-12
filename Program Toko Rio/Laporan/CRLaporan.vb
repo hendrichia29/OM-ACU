@@ -100,7 +100,13 @@ Public Class CRLaporan
             rp.SetParameterValue("tg2", CDate(tglAkhir))
             Me.Text = "Laporan Pembayaran Piutang periode " & tglMulai & "-" & tglAkhir
             rp.PrintOptions.PaperSize = CrystalDecisions.Shared.PaperSize.PaperA4
-3:
+        ElseIf flagLaporan = "komisi_sales" Then
+            rp = New CrystalReportKomisiSales
+            rp.SetParameterValue("tg1", CDate(tglMulai))
+            rp.SetParameterValue("tg2", CDate(tglAkhir))
+            rp.SetParameterValue("sales", FormKomisiSales.cmbSales.Text)
+            Me.Text = "Laporan Komisi Sales " & tglMulai & "-" & tglAkhir
+            rp.PrintOptions.PaperSize = CrystalDecisions.Shared.PaperSize.PaperA4
         End If
 
         'rp.PrintOptions.PaperSize = CrystalDecisions.Shared.PaperSize.DefaultPaperSize

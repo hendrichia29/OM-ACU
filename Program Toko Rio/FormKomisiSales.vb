@@ -59,34 +59,67 @@ Public Class FormKomisiSales
         '" where statusfaktur <> 0 And StatusPayment = 1 and (DATE_FORMAT(TanggalSalesPayment,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(TanggalSalesPayment,'%Y-%m-%d') <='" & tg2 & "')   " & _
         '" and NamaSales = '" & Trim(cmbSales.Text) & "'"
 
+        '12 feb 2012
+        'sql = " select so.kdso `No SO`,fk.kdfaktur `No Faktur`,DATE_FORMAT(TanggalFaktur,'%d/%m/%Y') `Tgl Faktur`," & _
+        '      "  NamaToko `Toko`," & _
+        '      "  NamaSales `Nama Sales` ,fk.GrandTotal,so.KomisiSales," & _
+        '      "  TotalKomisiSales -" & _
+        '      "  ( " & _
+        '      "  select IFNULL(sum(hargadisc*qty),0) TotalRetur " & _
+        '      "  from trretur r join trreturdetail dr on dr.kdretur=r.kdretur  " & _
+        '      " where AfterPaid = 1 " & _
+        '      "  and (DATE_FORMAT(TanggalRetur,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(TanggalRetur,'%Y-%m-%d') <='" & tg1 & "') " & _
+        '      "  ) `Jumlah Komisi`   " & _
+        '    " from trsalesorder so " & _
+        '    " join mssales sls on sls.kdsales=so.kdsales  " & _
+        '    " join trfaktur fk on fk.kdso=so.kdso " & _
+        '    " join trsalespayment tsp on tsp.KdFaktur = fk.KdFaktur" & _
+        '    " join mstoko mt on mt.kdtoko = so.KdToko " & _
+        '    " where statusfaktur <> 0 And StatusPayment = 1 and (DATE_FORMAT(TanggalSalesPayment,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(TanggalSalesPayment,'%Y-%m-%d') <='" & tg2 & "')   " & _
+        '    " and NamaSales = '" & Trim(cmbSales.Text) & "'"
+        Dim queryFrom As String = ""
+        Dim sql2 As String = ""
+
         sql = " select so.kdso `No SO`,fk.kdfaktur `No Faktur`,DATE_FORMAT(TanggalFaktur,'%d/%m/%Y') `Tgl Faktur`," & _
-              "  NamaToko `Toko`," & _
-              "  NamaSales `Nama Sales` ,fk.GrandTotal,so.KomisiSales," & _
-              "  TotalKomisiSales -" & _
-              "  ( " & _
-              "  select IFNULL(sum(hargadisc*qty),0) TotalRetur " & _
-              "  from trretur r join trreturdetail dr on dr.kdretur=r.kdretur  " & _
-              " where AfterPaid = 1 " & _
-              "  and (DATE_FORMAT(TanggalRetur,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(TanggalRetur,'%Y-%m-%d') <='" & tg1 & "') " & _
-              "  ) `Jumlah Komisi`   " & _
-            " from trsalesorder so " & _
+              " format(fk.GrandTotal,0) Grandtotal,NamaToko `Toko`," & _
+              " DATE_FORMAT(TanggalSalesPayment,'%d/%m/%Y') `Tgl Bayar`," & _
+              " NamaSales `Nama Sales`,format(tsp.Komisi_Sales,0) `Komisi`"
+
+        sql2 = " select so.kdso `No SO`,fk.kdfaktur `No Faktur`,DATE_FORMAT(TanggalFaktur,'%d/%m/%Y') `Tgl Faktur`," & _
+              " fk.GrandTotal Grandtotal,NamaToko `Toko`," & _
+              " DATE_FORMAT(TanggalSalesPayment,'%d/%m/%Y') `Tgl Bayar`," & _
+              " NamaSales `Nama Sales` ,tsp.Komisi_Sales `Komisi`"
+
+        queryFrom = " from trsalesorder so " & _
             " join mssales sls on sls.kdsales=so.kdsales  " & _
             " join trfaktur fk on fk.kdso=so.kdso " & _
             " join trsalespayment tsp on tsp.KdFaktur = fk.KdFaktur" & _
             " join mstoko mt on mt.kdtoko = so.KdToko " & _
-            " where statusfaktur <> 0 And StatusPayment = 1 and (DATE_FORMAT(TanggalSalesPayment,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(TanggalSalesPayment,'%Y-%m-%d') <='" & tg2 & "')   " & _
+            " where StatusSalesPayment	= 1  " & _
+            " and (DATE_FORMAT(TanggalSalesPayment,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(TanggalSalesPayment,'%Y-%m-%d') <='" & tg2 & "')   " & _
             " and NamaSales = '" & Trim(cmbSales.Text) & "'"
 
-        ' TextBox1.Text = sql
-        DataGridView1.DataSource = execute_datatable(sql)
-        TextBox1.Text = sql
-        Dim totalValue As Double = 0
-        Dim reader = execute_reader(sql)
-        Do While reader.Read
-            totalValue += reader("Jumlah Komisi")
-        Loop
-        reader.Close()
-        lblTotal.Text = FormatNumber(totalValue, 0)
+        sql += queryFrom
+        sql2 += queryFrom
+        Try
+            tglMulai = tg1
+            tglAkhir = tg2
+            dropview("view_komisi_sales")
+            createview(sql2, "view_komisi_sales")
+            ' TextBox1.Text = sql
+            DataGridView1.DataSource = execute_datatable(sql)
+            TextBox1.Text = sql
+            Dim totalValue As Double = 0
+            Dim reader = execute_reader(sql)
+            Do While reader.Read
+                totalValue += reader("Komisi")
+            Loop
+            reader.Close()
+            lblTotal.Text = FormatNumber(totalValue, 0)
+            Button3.Enabled = True
+        Catch ex As Exception
+            MsgBox(ex.ToString, MsgBoxStyle.Critical)
+        End Try
     End Sub
 
     Private Sub FormKomisiSales_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -94,7 +127,6 @@ Public Class FormKomisiSales
         txtTgl2.Value = Convert.ToDateTime(Today.Date)
         initGrid()
         setCmbSales()
-
     End Sub
 
     Private Sub btnCari_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCari.Click
@@ -116,7 +148,8 @@ Public Class FormKomisiSales
         reader.Close()
     End Sub
 
-    Private Sub cmbSales_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbSales.SelectedIndexChanged
-
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+        flagLaporan = "komisi_sales"
+        open_subpage("CRLaporan")
     End Sub
 End Class

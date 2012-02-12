@@ -64,6 +64,9 @@ Partial Class FormMsToko
         Me.txtCari = New System.Windows.Forms.TextBox
         Me.cmbCari = New System.Windows.Forms.ComboBox
         Me.Label17 = New System.Windows.Forms.Label
+        Me.cmbSales = New System.Windows.Forms.ComboBox
+        Me.Label13 = New System.Windows.Forms.Label
+        Me.Label5 = New System.Windows.Forms.Label
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.main_tool_strip.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -89,7 +92,7 @@ Partial Class FormMsToko
         Me.main_tool_strip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnAdd, Me.ToolStripSeparator1, Me.btnUpdate, Me.ToolStripSeparator2, Me.btnDelete, Me.ToolStripSeparator3, Me.btnSave, Me.ToolStripSeparator4, Me.btnCancel, Me.ToolStripSeparator5, Me.btnExit})
         Me.main_tool_strip.Location = New System.Drawing.Point(0, 0)
         Me.main_tool_strip.Name = "main_tool_strip"
-        Me.main_tool_strip.Size = New System.Drawing.Size(907, 54)
+        Me.main_tool_strip.Size = New System.Drawing.Size(907, 52)
         Me.main_tool_strip.TabIndex = 477
         Me.main_tool_strip.Text = "Tool Strip"
         '
@@ -98,7 +101,7 @@ Partial Class FormMsToko
         Me.btnAdd.Image = CType(resources.GetObject("btnAdd.Image"), System.Drawing.Image)
         Me.btnAdd.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(55, 51)
+        Me.btnAdd.Size = New System.Drawing.Size(49, 49)
         Me.btnAdd.Text = "Tambah"
         Me.btnAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -106,14 +109,14 @@ Partial Class FormMsToko
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 52)
         '
         'btnUpdate
         '
         Me.btnUpdate.Image = CType(resources.GetObject("btnUpdate.Image"), System.Drawing.Image)
         Me.btnUpdate.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(39, 51)
+        Me.btnUpdate.Size = New System.Drawing.Size(36, 49)
         Me.btnUpdate.Text = "Ubah"
         Me.btnUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnUpdate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -121,14 +124,14 @@ Partial Class FormMsToko
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 52)
         '
         'btnDelete
         '
         Me.btnDelete.Image = CType(resources.GetObject("btnDelete.Image"), System.Drawing.Image)
         Me.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(45, 51)
+        Me.btnDelete.Size = New System.Drawing.Size(41, 49)
         Me.btnDelete.Text = "Hapus"
         Me.btnDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -136,14 +139,14 @@ Partial Class FormMsToko
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 52)
         '
         'btnSave
         '
         Me.btnSave.Image = CType(resources.GetObject("btnSave.Image"), System.Drawing.Image)
         Me.btnSave.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(51, 51)
+        Me.btnSave.Size = New System.Drawing.Size(45, 49)
         Me.btnSave.Text = "Simpan"
         Me.btnSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -151,14 +154,14 @@ Partial Class FormMsToko
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 52)
         '
         'btnCancel
         '
         Me.btnCancel.Image = CType(resources.GetObject("btnCancel.Image"), System.Drawing.Image)
         Me.btnCancel.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(37, 51)
+        Me.btnCancel.Size = New System.Drawing.Size(36, 49)
         Me.btnCancel.Text = "Batal"
         Me.btnCancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnCancel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -166,20 +169,23 @@ Partial Class FormMsToko
         'ToolStripSeparator5
         '
         Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
-        Me.ToolStripSeparator5.Size = New System.Drawing.Size(6, 54)
+        Me.ToolStripSeparator5.Size = New System.Drawing.Size(6, 52)
         '
         'btnExit
         '
         Me.btnExit.Image = CType(resources.GetObject("btnExit.Image"), System.Drawing.Image)
         Me.btnExit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(44, 51)
+        Me.btnExit.Size = New System.Drawing.Size(41, 49)
         Me.btnExit.Text = "Keluar"
         Me.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.Label5)
+        Me.GroupBox2.Controls.Add(Me.cmbSales)
+        Me.GroupBox2.Controls.Add(Me.Label13)
         Me.GroupBox2.Controls.Add(Me.Label31)
         Me.GroupBox2.Controls.Add(Me.Label30)
         Me.GroupBox2.Controls.Add(Me.txtJatuhTempo)
@@ -518,6 +524,37 @@ Partial Class FormMsToko
         Me.Label17.TabIndex = 351
         Me.Label17.Text = "Berdasarkan"
         '
+        'cmbSales
+        '
+        Me.cmbSales.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbSales.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbSales.FormattingEnabled = True
+        Me.cmbSales.Location = New System.Drawing.Point(557, 186)
+        Me.cmbSales.Name = "cmbSales"
+        Me.cmbSales.Size = New System.Drawing.Size(307, 24)
+        Me.cmbSales.TabIndex = 578
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(455, 189)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(38, 15)
+        Me.Label13.TabIndex = 577
+        Me.Label13.Text = "Sales"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.Red
+        Me.Label5.Location = New System.Drawing.Point(870, 189)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(15, 20)
+        Me.Label5.TabIndex = 579
+        Me.Label5.Text = "*"
+        '
         'FormMsToko
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -588,5 +625,8 @@ Partial Class FormMsToko
     Friend WithEvents txtCari As System.Windows.Forms.TextBox
     Friend WithEvents cmbCari As System.Windows.Forms.ComboBox
     Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents cmbSales As System.Windows.Forms.ComboBox
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
 
 End Class

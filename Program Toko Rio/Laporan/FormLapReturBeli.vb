@@ -47,16 +47,16 @@ Public Class FormLapReturBeli
 
         'query = " select c.kdcustomer, c.NamaToko,mp.KdBarang,Merk,Warna,Artikel,Jenis,sum(do.Qty) - isnull(tr.total,0) [Qty Total],do.Harga,do.Harga*(sum(do.Qty) - isnull(tr.total,0)) Subtotal  "
         query = " select DATE_FORMAT(TanggalRetur,'%d-%m-%Y') `Tgl Retur`,c.Nama `Supplier`,dr.KdBahanMentah,NamaBahanMentah " & _
-     ", Qty,FORMAT(Harga,0) Harga, format( sum( qty*harga),0)  `Total`  "
+     ",  Qty_real Qty,FORMAT(Harga,0) Harga, format(  Qty_real*harga,0)  `Total`  "
         query2 = " select DATE_FORMAT(TanggalRetur,'%d-%m-%Y') `Tgl Retur`,c.Nama `Supplier`,mp.KdBahanMentah `Part No.`,NamaBahanMentah NamaBarang " & _
-         ", Qty,FORMAT(Harga,0) Harga, sum( qty*harga) `Total`  "
+         ", Qty_real Qty,FORMAT(Harga,0) Harga, Qty_real*harga `Total`  "
 
         queryFrom += "  from trheaderpb pb join mssupplier c on c.kdsupplier = pb.kdsupplier  " & _
         "  join trheaderreturbeli hr on hr.kdpb = pb.no_pb join trdetailreturbeli dr on dr.KdRetur=hr.KdRetur join Msbahanmentah mp on mp.KDBahanMentah=dr.KDBahanMentah  " & _
         "   "
         queryFrom += "  where  DATE_FORMAT(TanggalRetur,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(TanggalRetur,'%Y-%m-%d') <='" & tg2 & "'"
         queryFrom += "  and StatusRetur <> 0  AND jenis_retur='" & jenisPB & "' "
-        queryFrom += "  group by `Tgl Retur`,c.Nama,dr.KdBahanMentah,NamaBahanMentah,Qty,Harga "
+        ' queryFrom += "  group by `Tgl Retur`,c.Nama,dr.KdBahanMentah,NamaBahanMentah,Qty_real,Harga "
 
         query += queryFrom
         query2 += queryFrom

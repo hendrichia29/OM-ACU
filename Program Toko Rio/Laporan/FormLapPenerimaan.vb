@@ -44,14 +44,14 @@ Public Class FormLapPenerimaan
         End If
 
         query = "  select ho.no_Pb `No. Penerimaan`,DATE_FORMAT(Tanggal_TerimaBarang,'%d-%m-%Y') `Tgl Terima Barang`,c.Nama `Supplier`,mp.KdBahanMentah `Part No.`,NamaBahanMentah NamaBarang " & _
-        " , Qty,FORMAT(harga,0) Harga, FORMAT(sum(Qty*harga),0) `Total`   " & _
+        " ,Qty_real Qty,FORMAT(harga,0) Harga, FORMAT(sum(Qty_real*harga),0) `Total`   " & _
         " , CASE WHEN StatusPaid = 1 THEN 'Lunas'  " & _
         " WHEN StatusPaid = 0 THEN 'Belum Lunas' End 'Pembayaran' " & _
         " from trheaderpb ho join trdetailpb do  on ho.no_pb=do.no_pb join  MsBahanMentah mp on mp.KdBahanMentah=do.KdBahanMentah " & _
         " join trheaderpo hpo on hpo.no_po=ho.no_po  join mssupplier c on c.kdsupplier = hpo.kdsupplier    " & _
         " where  DATE_FORMAT(Tanggal_TerimaBarang,'%Y-%m-%d') >='" & tg1 & "' and DATE_FORMAT(Tanggal_TerimaBarang,'%Y-%m-%d') <='" & tg2 & "' " & _
         " and  StatusTerimaBarang <> 0 and jenis_pb='" & jenisPB & "' " & _
-        " group by ho.no_Pb,`Tgl Terima Barang`,c.Nama,do.KdBahanMentah,NamaBahanMentah,Qty,Harga  "
+        " group by ho.no_Pb,`Tgl Terima Barang`,c.Nama,do.KdBahanMentah,NamaBahanMentah,Qty_real,Harga  "
         '"left join( " & _
         '      "     select ho.KdPB,ho.kdretur,  IFNULL(sum(qty * (harga - (harga*do.disc/100))),0)  `Total Retur`  " & _
         '      "     from trheaderreturbeli ho join trdetailreturbeli do  on ho.Kdretur=do.KDRetur   " & _

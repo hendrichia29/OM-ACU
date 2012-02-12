@@ -918,4 +918,24 @@ Public Class FormSOManagamen
     Private Sub txtQty_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtQty.TextChanged
 
     End Sub
+
+    Private Sub cmbSales_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbSales.SelectedIndexChanged
+        Dim salesID = cmbSales.Text.ToString.Split("-")
+        If salesID(0) <> "" Then
+            cmbToko.Items.Clear()
+            cmbToko.Items.Add("- Pilih Toko -")
+            sql = " Select KdToko,NamaToko from MsToko" & _
+                  " where NamaToko <>'' " & _
+                  " AND kdsales='" & salesID(0) & "' order by NamaToko asc "
+            Dim readerToko = execute_reader(sql)
+            Do While readerToko.Read
+                cmbToko.Items.Add(readerToko("KdToko") & " - " & readerToko("NamaToko"))
+            Loop
+            readerToko.Close()
+            If cmbToko.Items.Count > 0 Then
+                cmbToko.SelectedIndex = 0
+            End If
+            readerToko.Close()
+        End If
+    End Sub
 End Class
